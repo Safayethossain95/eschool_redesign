@@ -28,7 +28,7 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Home</span></a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="#">Courses</a>
       </li>
       <li class="nav-item">
@@ -36,31 +36,32 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Registration</a>
-      </li>
+      </li> -->
        <li class="nav-item">
         <a class="nav-link"href="#">Admission <i class="fa fa-caret-down"></i></a>
         <ul>
-          <li><a class="nav-link" href="#">Admission going</a></li>
+          <li><a class="nav-link" href="#">Admission Form</a></li>
+          <li><a class="nav-link" href="#">Web Design</a></li>
           <li><a class="nav-link" href="#">Graphics</a></li>
-          <li><a class="nav-link" href="#">Digital</a></li>
         </ul>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="#">Payment<i class="fa fa-caret-down"></i></a>
         <ul>
           <li><a class="nav-link" href="#">Online Payment</a></li>
           <li><a class="nav-link" href="#">Bkash Payment</a></li>
           <li><a class="nav-link" href="#">Other</a></li>
         </ul>
-      </li>
-      <li class="nav-item">
+      </li> -->
+      <!-- <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
-      </li>
+      </li> -->
       
       
     </ul>
     
   </div>
+  <a class="contact_button" type="submit">Contact Us</a>
  	</div>
 </nav>
 
@@ -116,7 +117,7 @@
                                       <button type="button" class="btn" onclick="window.location.href='https://creativeitinstitute.com/seminar#scholership'">Join</button>
                                   </td>
                               </tr>
-                                                                <tr>
+                                                               <tr>
                                   <td>Graphic Design</td>
                                   <td>21 May 21, Friday</td>
                                   <td>08:00 PM</td>
@@ -155,7 +156,7 @@
                                   <td>
                                       <button type="button" class="btn" onclick="window.location.href='https://creativeitinstitute.com/seminar#scholership'">Join</button>
                                   </td>
-                              </tr>
+                               </tr>
                                                                 <tr>
                                   <td>Interior Design</td>
                                   <td>24 May 21, Monday</td>
@@ -341,6 +342,61 @@
         </div>
       </div>
     </section>
+
+    <section id="about">
+        <div class="container mygap">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="logo2">
+                    <i class="fa-area-chart fa"></i>
+                  </div>
+                </div>
+               
+                <div class="col-lg-10">
+                  <div class="title">
+                    <h4>World class teaching method</h6>
+                    <p>Try out a class today</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="logo2">
+                    <i class="fa-map-marker fa"></i>
+                  </div>
+                </div>
+               
+                <div class="col-lg-10">
+                  <div class="title">
+                    <h4>Our Location is Easy To Find</h6>
+                    <p>Try Google Maps</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="logo2">
+                    <i class="fa-phone fa"></i>
+                  </div>
+                </div>
+               
+                <div class="col-lg-10">
+                  <div class="title">
+                    <h4>Contact Us: + 880 162 4666000</h6>
+                    <p>Try out a class today</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
   </div>
 </div>
 
@@ -356,41 +412,31 @@
     var x = document.getElementById("acc");
     if (x.style.display === "none") {
       x.style.display = "block";
-      // $('#expp2').removeClass("col-lg-6");
-      // $('#expp').addClass("col-lg-10");
-      // $('#expp').removeClass("col-lg-6");
       $('#expp').addClass("col-lg-6");
-       // $('#expp2').addClass("col-lg-10");
-     
-    } else {
-      x.style.display = "none";
-      // $('#ac').addClass("fullwidth");
-      // $('#ac').position("left","0");
-      
+      $('#cards').removeClass("pd");
+    } 
+    else {
+      x.style.display = "none"
       $('#expp').removeClass("col-lg-6");
+      $('#cards').addClass("pd");
     }
-    // var y = document.getElementById("ac");
-    // y.style.width = "1000px";
-
-    
-    
-    
+  
   }
 
   function myFunction2() {
     var x = document.getElementById("ac");
     if (x.style.display === "none") {
       x.style.display = "block";
-      // $('#acc').removeClass("fullwidth");
-      
+     
+      $('#cards').removeClass("pd2");
       $('#expp2').addClass("col-lg-6");
 
      
     } else {
       x.style.display = "none";
-      // $('#acc').addClass("fullwidth");
-      
+
       $('#expp2').removeClass("col-lg-6");
+      $('#cards').addClass("pd2");
     }
   }
 
