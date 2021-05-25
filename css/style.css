@@ -3,8 +3,13 @@
 	margin:0;
 	outline:0;
 }
+body{
+	/*background: rgba(212, 200, 200, 0.849);*/
+	background: #b5bdc7;
+}
 ul,ol{
 	list-style-type:none;
+	padding-left:0;
 }
 a{
 	text-decoration:none;
@@ -15,7 +20,7 @@ a{
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size:15px;
 	color:#000;
-	font-weight:400;
+	font-weight:300;
 	padding-left:0!important;
 	padding-right:0!important;
 }
@@ -36,6 +41,7 @@ a{
     color: black;
     transform: scaleY(0);
     transition: all .5s;
+	z-index: 999999;
 
 }
 .navbar-collapse ul li:hover> ul{
@@ -50,7 +56,7 @@ a{
 }
 .nav-item ul li{
 	width:100%;
-
+	text-align: center;
 }
 
 .nav-item{
@@ -69,7 +75,7 @@ a{
     bottom: 0;
     transition: all 0.4s ease;
     
-    z-index: 99;
+    /* z-index: 99; */
 }
 
 .navbar-collapse ul li:hover> .nav-link::after{
@@ -81,12 +87,176 @@ a{
 .navbar-collapse ul li ul li:hover{
 	background: #eb1c24;
 }
-.bannerclass{
+/* .bannerclass{
 	z-index: -1;
+	position: relative;
+} */
+.banner{
+	position:relative;
+}
+.seminar{
 	position: absolute;
+	top:340px;
+	left:10%;
+	width:80%;
+	background: #F1F1F1;
+	padding: 50px 0;
+	border-radius:20px;
+
 }
 
 
+.space{
+	margin-top:500px;
+}
 
+.table thead th{
+	color: #fff!important;
+	border-right: 1px solid #fff;
+	text-align: center;
+	background: #49596d;
+	font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+  }
+ .seminar-table .btn {
+	background: #49596d;
+	color: #fff;
+  }
+ .table tr td {
+	text-align: center;
+	font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+	color: #444;
+	font-weight: 400;
+  }
+ 
+.accordion-body .btn {
+   
+	color: #ffffff;
+	display: inline-block;
+	padding: 6px 12px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	/* touch-action: manipulation; */
+	cursor: pointer;
+	/* user-select: none; */
+	/* background-image: none; */
+	border: 1px solid transparent;
+	border-radius: 4px;
+	background: rgb(131, 130, 153);
+	
+}
+.seminar{
+	box-shadow: 0px 5px 20px rgba(109, 102, 102, 0.692);
+}
+.accordion-button{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight:300;
+	font-size:14px;
+}
+.accordion-item {
+	background-color: #fff;
+	/* border: 1px solid rgba(0,0,0,.125); */
+	margin-bottom: 20px;
+	
+	/* border-radius: 175px; */
+}
+/*.expp{
+	display:inline-block;
+}*/
 
+.accordion-button:not(.collapsed) {
+	color: #000;
+	background-color: transparent;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+	transform: rotate(180deg);
+}
+.searchbar {
+	
+	margin-top: 20px;
+	padding:3px 0;
+	
+}
+.searchbarinput input::placeholder{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight:300;
+	font-size:14px;
+	color:#000;
+	
+}
+.searchbarinput input{
+	padding:16px 0;
+	padding-left:15px;
+}
 
+.searchbar i{
+	font-size:25px;
+	color:#000;
+}
+.fullwidth{
+	width:890px;
+	
+}
+#cards{
+	padding-top:225px;
+}
+.card-image img{
+	width:100%;
+}
+.card {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 30px;
+	border-radius: 6px;
+	color: rgba(0, 0, 0, 0.87);
+	background: #fff;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.card .card-image {
+	height: 60%;
+	position: relative;
+	overflow: hidden;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -30px;
+	border-radius: 6px;
+	box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.card .table {
+	padding: 15px 30px;
+}
+.table {
+	margin-bottom: 0px;
+}
+.table a{
+	color:#000;
+}
+.buttons button{
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.card-caption a{
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	
+}
+.card-blog{
+	box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.course_title p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	margin-bottom:60px;
+}
