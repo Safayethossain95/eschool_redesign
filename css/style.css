@@ -5,7 +5,7 @@
 }
 body{
 	/*background: rgba(212, 200, 200, 0.849);*/
-	background: #b5bdc7;
+	background: #d3d3d3;
 }
 ul,ol{
 	list-style-type:none;
@@ -274,9 +274,9 @@ a{
 .pd2{
 	margin-top: 120px;
 }
-#about{
+#get_to_us{
 	height:100px;
-
+	margin-bottom:100px;
 	background: #f1f1f1;
 }
 .title h4{
@@ -316,4 +316,56 @@ a{
 .contact_button:hover{
 	color:#000;
 	background: transparent;
+}
+
+#about{
+	margin-top:50px;
+	
+}
+.aboutShadow{
+	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+	
+	margin:0;
+	background:#f1f1f1;
+}
+.about-text{
+	margin-top:40px;
+}
+.about-text h6{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:16px;
+	color:#000;
+	font-weight: 400;
+	
+	padding:0 20px 0 20px;
+}
+.about-text p{
+	
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:14px;
+	color:#000;
+	font-weight: 400;
+	padding:0 20px 0 20px;
+}
+#upcomingtabs{
+	margin:60px 0;
+	background:#f1f1f1;
+	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+}
+
+#upcomingtabs .nav-item{
+	border-radius:0;
+}
+#upcomingtabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ee2e24;
+	border-radius: 0;
+}
+
+#upcomingtabs .nav-link{
+	color:#000;
+}
+
+#upcomingtabs ul{
+	margin-top:20px;
 }
