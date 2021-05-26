@@ -12,56 +12,36 @@
 <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&display=swap" rel="stylesheet"> 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="css/lightbox.min.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+
 	<nav class="navbar navbar-expand-lg">
  	<div class="container">
- 		 <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home</span></a>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">Courses</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">eSchool Team</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Registration</a>
-      </li> -->
-       <li class="nav-item">
-        <a class="nav-link"href="#">Admission <i class="fa fa-caret-down"></i></a>
-        <ul>
-          <li><a class="nav-link" href="#">Admission Form</a></li>
-          <li><a class="nav-link" href="#">Web Design</a></li>
-          <li><a class="nav-link" href="#">Graphics</a></li>
-        </ul>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">Payment<i class="fa fa-caret-down"></i></a>
-        <ul>
-          <li><a class="nav-link" href="#">Online Payment</a></li>
-          <li><a class="nav-link" href="#">Bkash Payment</a></li>
-          <li><a class="nav-link" href="#">Other</a></li>
-        </ul>
-      </li> -->
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li> -->
-      
-      
-    </ul>
+ 	
+     
+        <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+     
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</span></a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link"href="#">Admission <i class="fa fa-caret-down"></i></a>
+              <ul>
+                <li><a class="nav-link" href="#">Admission Form</a></li>
+                <li><a class="nav-link" href="#">Web Design</a></li>
+                <li><a class="nav-link" href="#">Graphics</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <a class="contact_button" type="submit">Contact Us</a>
+     
     
-  </div>
-  <a class="contact_button" type="submit">Contact Us</a>
  	</div>
 </nav>
 
@@ -252,7 +232,7 @@
             <div class="col-lg-12">
               <form class="d-flex searchbarinput">
                 <input class="form-control me-2 " type="search" placeholder="Search Anything ..." aria-label="Search">
-                <button class="btn btn-outline-success" type="submit"><i class="fa fa-search ml-auto"></i></button>
+                <button class="btn btn-outline-danger" type="submit"><i class="fa fa-search ml-auto"></i></button>
               </form>
             </div>
           </div>
@@ -342,8 +322,19 @@
         </div>
       </div>
     </section>
-
+    <section id="get_to_us_title">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="course_title2">
+              <p>Our Speciality</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="get_to_us">
+      
         <div class="container mygap">
           <div class="row">
             <div class="col-lg-4">
@@ -399,6 +390,17 @@
     </section>
   </div>
 </div>
+<section id="get_to_us_title">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="course_title2">
+          <p>About Us</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section id="about">
   <div class="container">
     <div class="row aboutShadow">
@@ -409,7 +411,7 @@
       </div>
       <div class="col-lg-6 ">
         <div class="about-text">
-          <h6>Welcome! form the poineering IT training institute</h6>
+          <h6><span>Welcome!</span> form the poineering IT training institute</h6>
           <p>
 
  Creative IT brings you the Creative E-School. Creative E-School has come to your district, your town as well as your home.
@@ -425,31 +427,76 @@ Having enough success we came back after two years with a bunch of the best to g
     </div>
   </div>
 </section>
-
-<section id="upcomingtabs">
+<section id="get_to_us_title">
   <div class="container">
-    <div class="row rowbg">
-      <div class="col-lg-8 m-auto boxsha">
-        <ul class="nav nav-pills" id="pills-tab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-          </li>
-        </ul>
-        <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="course_title2">
+          <p>Our Gallery</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+<section id="upcomingtabs">
+  <div class="container">
+    <div class="row rowbg">
+      <div class="row mx-0">
+        <div class="col-lg-3 col-sm-4 col-md-4 px-0">
+           <div class="galwrap">
+             <img src="images/gal1.jpg" alt="" class="img-fluid w-100" >
+             <div class="img-overlay">
+                 <div class="img-overlay-content text-center">
+                     <a href="images/gal1.jpg" data-lightbox="image-1" data-title="My image">
+           <i class="fa fa-picture-o"></i>
+       </a>
+                 </div>
+             </div>
+             </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 col-md-4 px-0">
+           <div class="galwrap">
+             <img src="images/gal2%20(1).jpg" alt="" class="img-fluid w-100" >
+             <div class="img-overlay">
+                 <div class="img-overlay-content text-center">
+                     <a href="images/gal2%20(1).jpg" data-lightbox="image-1" data-title="My image">
+           <i class="fa fa-picture-o"></i>
+       </a>
+                 </div>
+             </div>
+             </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 px-0">
+           <div class="galwrap">
+             <img src="images/gal2%20(2).jpg" alt="" class="img-fluid w-100" >
+             <div class="img-overlay">
+                 <div class="img-overlay-content text-center">
+                     <a href="images/gal2%20(2).jpg" data-lightbox="image-1" data-title="My image">
+           <i class="fa fa-picture-o"></i>
+       </a>
+                 </div>
+             </div>
+             </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 px-0">
+           <div class="galwrap">
+             <img src="images/gal2%20(3).jpg" alt="" class="img-fluid w-100" >
+             <div class="img-overlay">
+                 <div class="img-overlay-content text-center">
+                     <a href="images/gal2%20(3).jpg" data-lightbox="image-1" data-title="My image">
+           <i class="fa fa-picture-o"></i>
+       </a>
+                 </div>
+             </div>
+             </div>
+        </div>
+        
+        
+    </div>
+    </div>
+  </div>
+</section>
+
 <section class="space">
 
 </section>
@@ -497,7 +544,9 @@ Having enough success we came back after two years with a bunch of the best to g
 src="https://code.jquery.com/jquery-1.12.4.min.js"
 integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
 crossorigin="anonymous">
+
 </script>
+<script src="js/lightbox.min.js"></script>
 </body>
 </html>
 

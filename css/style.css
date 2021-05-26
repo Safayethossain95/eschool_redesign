@@ -21,7 +21,7 @@ a{
 	/* font-family: 'Montserrat', sans-serif; */
 	font-size:18px;
 	color:#000;
-	font-weight:400;
+	font-weight:300;
 	padding-left:0!important;
 	padding-right:0!important;
 }
@@ -45,11 +45,12 @@ a{
     transform: scaleY(0);
     transition: all .5s;
 	z-index: 999999;
+	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
 
 }
 .navbar-collapse ul li:hover> ul{
 	visibility: visible;
-	background:#b5bdc7;
+	background:#f1f1f1;
 	transform: scaleY(1);
 }
 .nav-item ul li a{
@@ -213,7 +214,7 @@ a{
 
 #cards{
 	padding-top:225px;
-	margin-bottom:100px;
+	margin-bottom: 50px;
 }
 .card-image img{
 	width:100%;
@@ -248,10 +249,15 @@ a{
 	color:#000;
 }
 .buttons button{
-	border-top-left-radius: 25px;
-	border-bottom-right-radius: 25px;
+	border-top-left-radius:10px;
+	border-bottom-right-radius: 10px;
 	background: #ee2e24;
 	color:#fff;
+	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+}
+.buttons button:hover{
+	color:#000;
+	background: transparent;
 }
 .card-caption a{
 	font-family: 'Montserrat', sans-serif;
@@ -266,6 +272,7 @@ a{
 	font-family: 'Montserrat', sans-serif;
 	font-size:25px;
 	margin-bottom:60px;
+	text-align: center;
 }
 
 .pd{
@@ -276,8 +283,9 @@ a{
 }
 #get_to_us{
 	height:100px;
-	margin-bottom:100px;
+	margin-bottom:50px;
 	background: #f1f1f1;
+	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
 }
 .title h4{
 	font-family: 'Montserrat', sans-serif;
@@ -310,6 +318,7 @@ a{
 	color:#fff;
 	text-align: center;
 	line-height: 40px;
+	margin-right:20px;
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
 }
 
@@ -319,8 +328,8 @@ a{
 }
 
 #about{
-	margin-top:50px;
 	
+	margin-bottom: 50px;
 }
 .aboutShadow{
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
@@ -337,7 +346,11 @@ a{
 	color:#000;
 	font-weight: 400;
 	
-	padding:0 20px 0 20px;
+	padding:17px 20px 0 20px;
+}
+.about-text h6 span{
+	color:#ee2e26;
+	font-size: 30px;
 }
 .about-text p{
 	
@@ -348,7 +361,7 @@ a{
 	padding:0 20px 0 20px;
 }
 #upcomingtabs{
-	margin:60px 0;
+	margin:0 0 60px 0;
 	background:#f1f1f1;
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
 }
@@ -368,4 +381,58 @@ a{
 
 #upcomingtabs ul{
 	margin-top:20px;
+}
+#upcomingtabs ul li{
+	padding:0;
+}
+#upcomingtabs .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	background: #120d38;
+	color: #fff;
+}
+#upcomingtabs .nvdesign {
+	color: #413d4b;
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 9px;
+	background: transparent;
+	border: 1px solid #ddd;
+	text-transform: capitalize;
+	font-weight: 300;
+	margin-right: 10px;
+}
+#upcomingtabs .img-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(70, 53, 105, 0.5);
+	opacity: 0;
+	transition: all linear .3s;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+#upcomingtabs .galwrap:hover .img-overlay {
+	opacity: 1;
+}
+#upcomingtabs .galwrap {
+	position: relative;
+	padding-left:0;
+	padding-right: 0;;
+}
+#upcomingtabs .galwrap i{
+	font-size: 40px;
+	color:#fff;
+}
+#upcomingtabs .img-overlay-content{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.course_title2 p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	margin-bottom:40px;
+	text-align: center;
 }
