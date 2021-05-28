@@ -326,6 +326,17 @@ a{
 	
 	margin-bottom: 50px;
 }
+#about2{
+	height:400px;
+	margin-bottom: 50px;
+	background:purple;
+}
+.about-left-side{
+	background: url('../images/speaker.jpg');
+	background-size: cover;;
+	background-position: center;
+	height:100%;
+}
 .bggg{
 	background:#fff;
 }
