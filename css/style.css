@@ -35,6 +35,12 @@ a{
 .navbar img{
 	padding-right:20px;
 }
+.nav-item a{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	
+}
 .nav-item ul{
 	text-align:center;
     position: absolute;
@@ -253,6 +259,10 @@ a{
 	color:#fff;
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
 }
+.buttons.onlinebtn {
+    padding: 31px 0 0 23px;
+    
+}
 .buttons button:hover{
 	color:#000;
 	background: transparent;
@@ -269,8 +279,12 @@ a{
 .course_title p{
 	font-family: 'Montserrat', sans-serif;
 	font-size:25px;
+	font-weight: 700;
 	margin-bottom:60px;
 	text-align: center;
+}
+.course_title p span{
+	color:#ee2e24;
 }
 
 .pd{
@@ -325,48 +339,58 @@ a{
 #about{
 	
 	margin-bottom: 50px;
+	
 }
-#about2{
-	height:400px;
-	margin-bottom: 50px;
-	background:purple;
+.animated-text-1{
+	padding:70px 0;
+	
+	
 }
-.about-left-side{
-	background: url('../images/speaker.jpg');
-	background-size: cover;;
-	background-position: center;
-	height:100%;
+.animated-text-1 h3{
+	font-size: 30px;
+	color:#000;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:16px;
+	color:#000;
+	font-weight: 600;
 }
-.bggg{
-	background:#fff;
+.animated-text-1 p{
+	font-size: 14px;
+	color:#000;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:16px;
+	color:#000;
+	font-weight: 400;
 }
-#about .about-left-image{
-	background: url('../images/speaker.jpg');
-	background-size: cover;;
-	background-position: center;
-	height:100%;
-	position:relative;
+.animated-image-1{
+	background:#ee2e24a2;
 }
-.about-overlay{
-	position: absolute;
-	clip-path: circle(50% at 100% 50%);
-	right:-30px;
-	top:0;
-	height:100%;
-	width:100%;
-	background:#fff;
-	content:'';
-	z-index: 9999;
+.animated-text-1 .pr{
+	padding-right:20px;
+	padding-left:10px;
+}
+.animated-text-1 .pl{
+	padding-left:20px;
+	padding-right: 10px;
+}
+
+
+
+.about-left-color{
+	background: rgba(73, 89, 109, 0.089);
 }
 .aboutShadow{
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
 	
 	margin:0;
+	
 	background:#f1f1f1;
 }
 .about-text{
 	margin-top:40px;
+	padding:0 10px;
 }
+
 .about-text h6{
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size:16px;
@@ -375,25 +399,34 @@ a{
 	
 	padding:17px 20px 0 20px;
 }
-.about-text h6 span{
-	color:#ee2e26;
+.about-text h6{
+	color:#444;
 	font-size: 30px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 700;
 }
 .about-text p{
 	
 	font-family: 'Noto Sans JP', sans-serif;
-	font-size:14px;
+	font-size:16px;
 	color:#000;
-	font-weight: 400;
-	padding:0 20px 0 20px;
+	font-weight: 500;
+	padding:0 26px 0 20px;
 }
-#upcomingtabs{
+.about-text #title{
+	font-size: 34px;
+	font-family: 'Noto Sans JP', sans-serif;
+	color:#ee2e26;
+	font-weight: 700;
+	
+}
+#teachers{
 	margin:0 0 60px 0;
 	background:#f1f1f1;
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
 }
 
-#upcomingtabs .nav-item{
+/* #upcomingtabs .nav-item{
 	border-radius:0;
 }
 #upcomingtabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -461,10 +494,29 @@ a{
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
-}
+} */
 .course_title2 p{
 	font-family: 'Montserrat', sans-serif;
 	font-size:25px;
-	margin-bottom:40px;
+	font-weight: 700;
+	margin-bottom:60px;
 	text-align: center;
 }
+.course_title2 p span{
+	color:#ee2e24;
+}
+.course_title2 p{
+	position: relative;
+}
+.course_title2 p::after{
+	position:absolute;
+	bottom:0;
+	left:50%;
+	height:2px;
+	transform:translateX(-50%);
+	width:100px;
+	content:'';
+	opacity:1;
+	background:#ee2e24;
+}
+
