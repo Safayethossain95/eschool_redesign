@@ -110,7 +110,7 @@ a{
 .seminar {
 	position: absolute;
 	/* top: 491px; */
-	top:87%;
+	top:80vh;
 	/* transform:translateY(-87%); */
 	left: 50%;
 	width: 70%;
@@ -510,7 +510,7 @@ a{
 }
 .course_title2 p::after{
 	position:absolute;
-	bottom:0;
+	bottom:-5px;
 	left:50%;
 	height:2px;
 	transform:translateX(-50%);
@@ -518,6 +518,9 @@ a{
 	content:'';
 	opacity:1;
 	background:#ee2e24;
+}
+.teacher-slider {
+	margin: 50px 0 40px 0;
 }
 .teacher-slider-item{
 	
@@ -576,4 +579,47 @@ a{
 	border-bottom: 4px solid #ee2e24;
 	margin-right:10px;
 	margin-left:10px;
+}
+
+.slick-dots {
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 45px;
+}
+#teachers .slick-dots li{
+	display: inline-block;
+	font-size: 0;
+	margin-right:5px;
+	background: transparent;
+	border:2px solid #000;
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	
+	
+	
+}
+.slick-dots li button{
+	display: none;
+}
+.slick-dots .slick-active {
+	background: #ee2e24;
+}
+.fa.fa-chevron-right.right.slick-arrow {
+	right: 46%;
+	position: absolute;
+	bottom:9px;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 11px;
+	width: 38px;
+}
+.fa.fa-chevron-left.left.slick-arrow {
+	left: 46%;
+	position: absolute;
+	bottom: 9px;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 11px;
+	width: 38px;
 }

@@ -5,7 +5,7 @@ $('.teacher-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
-    autoplay:false,
+    autoplay:true,
     prevArrow:"<i class='fa fa-chevron-left left'></i>",
     nextArrow:"<i class='fa fa-chevron-right right'></i>",
 
