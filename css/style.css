@@ -107,13 +107,14 @@ a{
 .banner{
 	position:relative;
 }
-.seminar {
+.seminar-s {
 	position: absolute;
 	/* top: 491px; */
 	top:80vh;
 	/* transform:translateY(-87%); */
+	
 	left: 50%;
-	width: 70%;
+	width:80%;
 	transform:translateX(-50%);
 	background: #f1f1f1;
 	padding: 20px 15px;
@@ -622,21 +623,19 @@ a{
 	margin-bottom:20px;
 }
 .s-text{
-	position:absolute;
-	top:68%;
-	left:50%;
-	transform:translate(-50%,-50%);
 	visibility:hidden;
 }
-.s-text h3{
+.s-text h3 {
 	font-family: 'Noto Sans JP', sans-serif;
-	font-size:40px;
+	font-size: 28px;
 	font-weight: 400;
-	color:#fff;
+	color: #fff;
+	padding-top: 144px;
 }
-.s-text h4{
+.s-text h4 {
 	font-family: 'Noto Sans JP', sans-serif;
-	font-size:20px;
+	font-size: 20px;
 	font-weight: 400;
-	color:#fff;
+	color: #fff;
+	padding-top: 128px;
 }
