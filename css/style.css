@@ -94,7 +94,7 @@ a{
 	color:#ee2e24;
 }
 .navbar-collapse ul li:hover> .nav-link{
-	color:#ee2e24;
+	color:#000;
 }
 
 .navbar-collapse ul li ul li:hover{
@@ -317,25 +317,6 @@ a{
 	line-height: 100px;
 }
 
-/* 
-.contact_button{
-	margin-left:auto;
-	width:100px;
-	height:40px;
-	background: #ee2e24;
-	
-	color:#fff;
-	text-align: center;
-	line-height: 40px;
-	margin-right:20px;
-	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
-}
-
-.contact_button:hover{
-	color:#000;
-	background: transparent;
-} */
-
 #about{
 	
 	margin-bottom: 50px;
@@ -426,75 +407,6 @@ a{
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
 }
 
-/* #upcomingtabs .nav-item{
-	border-radius:0;
-}
-#upcomingtabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: #ee2e24;
-	border-radius: 0;
-}
-
-#upcomingtabs .nav-link{
-	color:#000;
-}
-
-#upcomingtabs ul{
-	margin-top:20px;
-}
-#upcomingtabs ul li{
-	padding:0;
-}
-#upcomingtabs .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	background: #120d38;
-	color: #fff;
-}
-#upcomingtabs .nvdesign {
-	color: #413d4b;
-	font-family: 'Noto Sans JP', sans-serif;
-	padding: 9px;
-	background: transparent;
-	border: 1px solid #ddd;
-	text-transform: capitalize;
-	font-weight: 300;
-	margin-right: 10px;
-}
-#upcomingtabs .img-overlay {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: #ee2e2459;
-	opacity: 0;
-	transition: all linear .3s;
-	display: flex;
-	text-align: center;
-	justify-content: center;
-	border-radius:10px;
-}
-#upcomingtabs .galwrap:hover .img-overlay {
-	opacity: 1;
-}
-#upcomingtabs .galwrap {
-	position: relative;
-	margin:20px 10px 20px 10px;
-	
-	
-}
-#upcomingtabs .galwrap img{
-	border-radius:10px;
-}
-#upcomingtabs .galwrap i{
-	font-size: 40px;
-	color:#fff;
-}
-#upcomingtabs .img-overlay-content{
-	position: absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
-} */
 .course_title2 p{
 	font-family: 'Montserrat', sans-serif;
 	font-size:25px;
@@ -542,7 +454,7 @@ a{
 	position: absolute;
 	bottom:0;
 	left:0;
-	background:#58555471;
+	background: linear-gradient(to top, rgba(168, 62, 62, 0.692) , rgba(198, 198, 207, 0.671));
 	opacity:0;
 	width:100%;
 	height:0;
@@ -556,7 +468,7 @@ a{
 .o-img:hover .t-overlay{
 	opacity:1;
 	height:100%;
-	border-left:4px solid red;
+	border-right:2px solid #ee2e24;
 }
 .t-overlay h3{
 	font-family: 'Noto Sans JP', sans-serif;
@@ -576,7 +488,7 @@ a{
 	
 }
 .text{
-	border-bottom: 4px solid #ee2e24;
+	border-bottom: 2px solid #ee2e24;
 	margin-right:10px;
 	margin-left:10px;
 }
@@ -586,32 +498,41 @@ a{
 	padding-top: 35px;
 	padding-bottom: 45px;
 }
-#teachers .slick-dots li{
-	display: inline-block;
-	font-size: 0;
-	margin-right:5px;
+#teachers .slick-dots li {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5px;
 	background: transparent;
-	border:2px solid #000;
-	width:15px;
-	height:15px;
-	border-radius:50%;
-	
-	
-	
+	border: 2px solid #000;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
 }
 .slick-dots li button{
-	display: none;
+	font-size:0;
+	height:8px;
+	width:8px;
+	background:#ee2e24;
+	border-radius:50%;
+	outline:0;
+	border:0;
+	opacity:0;
+	
 }
 .slick-dots .slick-active {
 	background: #ee2e24;
 }
+.slick-dots .slick-active button{
+	opacity:1;
+}
 .fa.fa-chevron-right.right.slick-arrow {
 	right: 46%;
 	position: absolute;
-	bottom:9px;
+	bottom: 9px;
 	border: 1px solid black;
 	border-radius: 50%;
-	padding: 11px;
+	padding: 11px 13px;
 	width: 38px;
 }
 .fa.fa-chevron-left.left.slick-arrow {
@@ -622,4 +543,100 @@ a{
 	border-radius: 50%;
 	padding: 11px;
 	width: 38px;
+}
+#comments{
+	margin:0 0 60px 0;
+}
+.single-comment-box {
+	position: relative;
+	background: #f1f1f1;
+	height: 260px;
+	overflow: visible;
+	margin: 50px 18px;
+	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+	border-bottom: 2px solid #ee2e24;
+}
+.comment-img {
+	position: absolute;
+	right: 32px;
+	top: -26px;
+	z-index: 99999;
+}
+.comment-img img{
+	width:113px;
+	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+}
+.comment-text{
+	padding:20px 0 10px 25px;
+}
+.comment-text p{
+	margin:0;
+}
+.comment-text .bold{
+	font-weight:700;
+}
+.comment-text i{
+	color:#ee2e24;
+}
+.comment-text .main-comment {
+	padding-top: 20px;
+	padding-right: 38px;
+	text-align: justify;
+	font-size: 15px;
+}
+.comment-text .cname{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:18px;
+	font-weight: 400;
+}
+.s-image{
+	position:relative;
+}
+.s-overlay{
+	position: absolute;
+	top:0;
+	left:0;
+	background: rgba(0, 0, 0, 0.4);
+	opacity:1;
+	width:100%;
+	height:100%;
+	text-align: center;
+	transition:all 0.4s;
+
+}
+.s-overlay i{
+	font-size:100px;
+	color:#fff;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.s-overlay:hover i {
+	color:#ee2e24;
+}
+.s-overlay:hover .s-text{
+	visibility:visible;
+}
+.s-gap{
+	margin-bottom:20px;
+}
+.s-text{
+	position:absolute;
+	top:68%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	visibility:hidden;
+}
+.s-text h3{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:40px;
+	font-weight: 400;
+	color:#fff;
+}
+.s-text h4{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:20px;
+	font-weight: 400;
+	color:#fff;
 }
