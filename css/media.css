@@ -1,0 +1,32 @@
+@media(max-width: 575.98px) {
+     
+.navbar-brand img{
+	width:160px;
+}
+.navbar-toggler-icon i{
+	color:#222;
+}
+.navbar-toggler{
+	padding-top:10px;
+}
+.accordion-button::after {
+	
+	width: 1rem;
+	height: 1rem;
+	background-size: 1rem;
+}
+#ac {
+	margin-bottom: 10px;
+}
+
+.accordion-button{
+     padding: .5rem .5rem;
+}
+.seminar-s{
+     margin-top:20px;
+}
+#cards {
+	padding-top: 50px;
+	margin-bottom: 0px;
+}
+}

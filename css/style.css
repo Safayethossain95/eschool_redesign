@@ -291,7 +291,7 @@ a{
 }
 .shadowme{
 	box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-	border-bottom: 2px solid red;
+	border-bottom: 1px solid red;
 }
 .pd{
 	margin-top: 835px;
@@ -300,10 +300,10 @@ a{
 	margin-top: 120px;
 }
 #get_to_us{
-	height:100px;
-	margin-bottom:50px;
+	
+	border-top:1px solid #ee2e24;
 	background: #f1f1f1;
-	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+	
 }
 .title h4{
 	font-family: 'Montserrat', sans-serif;
@@ -320,7 +320,7 @@ a{
 .logo2{
 	color:#ee2e24;
 	font-size: 40px;
-	line-height: 100px;
+	padding:20px 0;
 }
 
 #about{
@@ -550,9 +550,9 @@ a{
 	padding: 11px;
 	width: 38px;
 }
-#comments{
+/* #comments{
 	margin:0 0 60px 0;
-}
+} */
 .single-comment-box {
 	position: relative;
 	background: #f1f1f1;
@@ -680,6 +680,9 @@ a{
 .success-img{
 	position: relative;
 }
+#successful-students{
+	margin-bottom:60px;
+}
 .cut{
 	position: absolute;
 	bottom:20px;
@@ -698,10 +701,10 @@ a{
 .sld{
 	width:100%;
 }
-#footer{
-	margin:50px 0;
-	padding:50px 0;
-	background:#f1f1f1;
+#footer {
+	margin: 50px 0 0 0;
+	padding: 50px 0;
+	background: #f1f1f1;
 }
 .footer-logo p{
 	margin-top:20px;
@@ -725,15 +728,14 @@ a{
 	font-weight:500;
 	color:#222;
 }
-.footer-text a{
-	
+.footer-text a {
 	font-family: 'Open Sans', sans-serif;
-	font-size:14px;
-	line-height:22px;
-	font-weight:400;
-	color:#222;
-	display:block;
-	margin-bottom:8px;
+	font-size: 16px;
+	line-height: 33px;
+	font-weight: 400;
+	color: #222;
+	display: block;
+	margin-bottom: 8px;
 }
 
 .footer-heading{
@@ -744,7 +746,7 @@ a{
 	bottom: -5px;
 	left: 0;
 	width: 40%;
-	height: 2px;
+	height: 1px;
 	background: #ee2e24;
 	content: '';
 	visibility: visible;
@@ -785,5 +787,63 @@ a{
 	
 }
 .gg {
-	margin-bottom: 18px!important;
+	margin-bottom: 13px!important;
+}
+.footer-gal{
+	margin-left:15px;
+}
+.footer-form input {
+	padding: 8px 7px;
+}
+.footer-form-link a{
+	font-size: 16px;
+	color: #f1f1f1;;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding:8px 15px;
+	margin-top:15px;
+	background:#ee2e24;
+	text-align:center;
+}
+.footer-social-links a {
+	height: 35px;
+	width: 35px;
+	transition: all 0.3s linear;
+	background-color: #f1f1f1;
+	color: #444444;
+	text-align: center;
+	display: block;
+	border-radius: 50%;
+	border: 1px solid #444444;
+	margin-bottom:20px;
+}
+.footer-social-links a:hover{
+	background:#ee2e24;
+	color:#f1f1f1;
+}
+#for-whom {
+	margin-bottom: 60px;
+	background: #f1f1f1;
+	padding:30px 0;
+}
+.for-whom-text h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size:18px;
+	color:#222;
+	text-align:justify;
+}
+.for-whom-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size:14px;
+	color:#222;
+	text-align:justify;
+}
+.itemg{
+	margin:0 12px;
+	
+}
+.for-whom-text{
+	padding:0 1.5rem;
 }
