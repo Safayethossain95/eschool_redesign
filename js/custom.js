@@ -25,6 +25,20 @@ $('.teacher-slider').slick({
     nextArrow:"<i class='fa fa-chevron-right right'></i>",
 
   });
+ 
+
+  $('.sld').slick({
+    
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay:false,
+    dots:false,
+   
+
+  });
 
 
   // venubox js start

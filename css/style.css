@@ -128,9 +128,6 @@ a{
 } */
 
 
-.space{
-	margin-top:500px;
-}
 
 .table thead th{
 	color: #fff!important;
@@ -657,7 +654,22 @@ a{
 	background: #f1f1f1;
 }
 .success-text h4{
-	padding-top:25px;
+	
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:18px;
+	font-weight:400;
+	color:#222;
+	text-transform: uppercase;
+}
+.success-text p{
+	
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:16px;
+	font-weight:400;
+	color:#222
+}
+.success-text img{
+	margin-bottom:4px;
 }
 .border-1{
 	border:1px solid #222;
@@ -677,4 +689,101 @@ a{
 	transform:rotate(45deg);
 	z-index: 999;
 	background:#f1f1f1;
+}
+
+.itemd{
+	margin:0 12px;
+	
+}
+.sld{
+	width:100%;
+}
+#footer{
+	margin:50px 0;
+	padding:50px 0;
+	background:#f1f1f1;
+}
+.footer-logo p{
+	margin-top:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	line-height:22px;
+	font-weight:400;
+	color:#222;
+	text-align:justify;
+}
+.footer-text {
+	margin-left: 15px;
+	margin-top: 24px;
+}
+.footer-text h4{
+	margin-top:20px;
+	margin-bottom:20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	
+	font-weight:500;
+	color:#222;
+}
+.footer-text a{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	line-height:22px;
+	font-weight:400;
+	color:#222;
+	display:block;
+	margin-bottom:8px;
+}
+
+.footer-heading{
+	position:relative;
+}
+.footer-heading h4::after {
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 40%;
+	height: 2px;
+	background: #ee2e24;
+	content: '';
+	visibility: visible;
+}
+.footer-links a{
+	position:relative;
+	transition:all 0.3s linear;
+}
+.footer-links a::after {
+	position: absolute;
+	width: 0;
+	height: 2px;
+	content: '';
+	bottom: -5px;
+	left: 0;
+	transition:all 0.3s linear;
+	background: #ee2e24;
+	visibility: hidden;
+}
+
+.footer-links a:hover:after{
+	width:100%;
+	visibility:visible;
+	
+}
+.footer-links a:hover{
+	color:#ee2e24;
+	margin-left:5px;
+}
+.footer-links li{
+	display:block;
+}
+.footer-links li a{
+	display:inline-block;
+}
+.pd5 {
+	padding: 0 5px !important;
+	
+}
+.gg {
+	margin-bottom: 18px!important;
 }
