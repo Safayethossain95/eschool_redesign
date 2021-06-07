@@ -9,6 +9,9 @@
 .navbar-toggler{
 	padding-top:10px;
 }
+.navbar-toggler:focus{
+	outline:0;
+}
 .accordion-button::after {
 	
 	width: 1rem;
@@ -28,5 +31,26 @@
 #cards {
 	padding-top: 50px;
 	margin-bottom: 0px;
+}
+.margin-center{
+	margin:25px auto;
+}
+.buttons button{
+	line-height:1;
+}
+#cards .card-caption{
+	margin-bottom:20px;
+}
+.about-text p {
+	font-size: 14px;
+	font-weight: 400;
+	
+}
+.about-text #title {
+	font-size: 28px;
+	
+}
+.about-text h6 {
+	font-size: 24px;
 }
 }
