@@ -186,9 +186,9 @@ a{
 	
 	/* border-radius: 175px; */
 }
-/*.expp{
-	display:inline-block;
-}*/
+.expp{
+	transition:all 0.5s linear;
+}
 
 .accordion-button:not(.collapsed) {
 	color: #000;
