@@ -3,6 +3,9 @@
 	margin:0;
 	outline:0;
 }
+p{
+	padding:0;
+}
 body{
 	/*background: rgba(212, 200, 200, 0.849);*/
 	
@@ -22,10 +25,11 @@ a{
 	max-width: 80%;
 	margin: 1.75rem auto;
 }
-.modal-button{
-	border:1px solid rgba(129, 127, 127, 0.514);
-	background:#fff;
-	padding:13px 10px;
+.modal-button {
+	border: 1px solid rgba(129, 127, 127, 0.514);
+	background: #fff;
+	padding: 13px 19px;
+	border-radius: 10px;
 }
 .modal-button i{
 	margin-top:7px;
@@ -34,12 +38,15 @@ a{
 .modal-button a{
 	/* padding:20px 0; */
 	/* margin-left:20px; */
-	font-size: 18px;
-	
+	font-size: 16px;
+	font-family: 'Noto Sans JP', sans-serif;
 	color:#222;
+	font-weight: 300;
+
 	
 	border-radius:5px;
 }
+
 /*  ACCORDION TO MODEL CSS END  */
 .navbar-collapse .nav-link{
 	
@@ -266,7 +273,7 @@ a{
 .minilogo {
 	padding-left: 25px;
 	font-size:14px;
-	color:#444;
+	color:#ee2e24;
 }
 .card-text h3{
 	font-family: 'Noto Sans JP', sans-serif;
@@ -290,7 +297,8 @@ a{
 	color:#000;
 }
 .buttons button{
-	
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 300;
 	background: #ee2e24;
 	color:#fff;
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
@@ -592,7 +600,7 @@ a{
 .single-comment-box {
 	position: relative;
 	background: #f1f1f1;
-	height: 260px;
+	height: 220px;
 	overflow: visible;
 	margin: 50px 18px;
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
@@ -633,6 +641,15 @@ a{
 }
 .success-story{
 	margin-bottom:50px;
+}
+.buttonsmargin{
+	margin:40px 0;
+	
+}
+
+.buttonsmargin button{
+	padding:10px 20px;
+	
 }
 .s-image{
 	position:relative;
@@ -878,11 +895,24 @@ a{
 	font-size:14px;
 	color:#222;
 	text-align:justify;
+	margin-bottom:0;
 }
 .itemg{
 	margin:0 12px;
 	
 }
-.for-whom-text{
-	padding:0 1.5rem;
+.for-whom-shadow{
+	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+	
+}
+.for-whom-text {
+	padding: 0 20px 0 20px;
+}
+
+
+.itemg{
+	padding:30px;
+}
+.myhomemaker{
+	margin-top:61px;
 }
