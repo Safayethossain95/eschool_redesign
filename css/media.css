@@ -1,5 +1,15 @@
 @media(max-width: 575.98px) {
      
+/* ACCORDION TO MODEL */
+
+.modal-button i{
+	display:none;
+}
+
+/* ACCORDION TO MODEL */
+
+
+
 .navbar-brand img{
 	width:160px;
 }
