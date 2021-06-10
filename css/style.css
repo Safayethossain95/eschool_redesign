@@ -3,6 +3,15 @@
 	margin:0;
 	outline:0;
 }
+.form-control:focus{
+	border-color:transparent;
+	border:none;
+	outline:none;
+	box-shadow:none;
+}
+/* .form-control{
+	height:30px;
+} */
 p{
 	padding:0;
 }
@@ -127,11 +136,16 @@ a{
 	color:#ee2e24;
 }
 .navbar-collapse ul li:hover> .nav-link{
-	color:#000;
+	color:#222;
 }
+
 
 .navbar-collapse ul li ul li:hover{
 	background: #ee2e24;
+	
+}
+.navbar-collapse ul li ul li:hover > .nav-link{
+	color:#fff;
 }
 
 /* .bannerclass{
@@ -303,6 +317,12 @@ a{
 	color:#fff;
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
 }
+.buttons button a{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 300;
+	color:#fff;
+	font-size:16px;
+}
 .buttons.onlinebtn {
     padding: 31px 0 0 23px;
     
@@ -310,6 +330,9 @@ a{
 .buttons button:hover{
 	color:#000;
 	background: transparent;
+}
+.buttons button:hover > a{
+	color:#222;
 }
 .card-caption a{
 	font-family: 'Montserrat', sans-serif;
@@ -648,7 +671,7 @@ a{
 }
 
 .buttonsmargin button{
-	padding:10px 20px;
+	padding:10px 48px;
 	
 }
 .s-image{
@@ -849,7 +872,7 @@ a{
 	margin-left:15px;
 }
 .footer-form input {
-	padding: 8px 7px;
+    padding: 8px 20px;
 }
 .footer-form-link a{
 	font-size: 16px;
@@ -916,3 +939,75 @@ a{
 .myhomemaker{
 	margin-top:61px;
 }
+
+/* COURSE-PAGE START */
+
+.b-image{
+	position:relative;
+	margin-bottom:50px;
+}
+.b-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 136px 0 69px 0;
+    background: #554c4c56;
+}
+.course_title3 p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	font-weight: 700;
+	
+	text-align: center;
+}
+.course_title3 p span{
+	color:#ee2e24;
+}
+.course_title3 p{
+	position: relative;
+}
+.course_title3 p::after{
+	position:absolute;
+	bottom:-5px;
+	left:50%;
+	height:2px;
+	transform:translateX(-50%);
+	width:100px;
+	content:'';
+	opacity:1;
+	background:#ee2e24;
+}
+.b-overlay .breadcrumb-text p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight: 400;
+	color:#222;
+	text-align: center;
+}
+.b-overlay .course_title3 p{
+	text-transform: uppercase;
+}
+.b-overlay .course_title3 span{
+	text-transform: uppercase;
+}
+/* COURSE-PAGE END */
+
+/* ADMISSION PAGE START */
+
+.myform-admission input{
+	display:block;
+	width:100%;
+	padding: 0;
+	border:0;
+}
+
+.myform-admission {
+	margin:10px 0;
+}
+.myform-admission select{
+	width:"100%";
+	border:0;
+	padding:0 0 1px 0;
+}
+/* ADMISSION PAGE END */
