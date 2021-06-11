@@ -872,7 +872,7 @@ a{
 	margin-left:15px;
 }
 .footer-form input {
-    padding: 8px 20px;
+	padding: 8px 0 8px 15px;
 }
 .footer-form-link a{
 	font-size: 16px;
@@ -944,8 +944,7 @@ a{
 
 .b-image{
 	position:relative;
-	background: #c9645fbb;
-	padding:150px 0 150px 0;
+	
 
 }
 
@@ -956,14 +955,35 @@ a{
     width: 100%;
 	height:100%;
 	
-    /* padding: 136px 0 69px 0; */
-    background: #554c4c56;
 }
 .ll {
 	/* margin: 50px; */
-	margin-top: 100px;
+	margin-top: 10%;
 }
-
+.course_title4{
+	position: relative;
+}
+.course_title4 p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:32px;
+	font-weight: 700;
+	color:rgb(226, 214, 214);
+	text-align: center;
+}
+.course_title4 p span{
+	color:#d15852;
+}
+.course_title4 p::after{
+	position:absolute;
+	bottom:-5px;
+	left:50%;
+	height:2px;
+	transform:translateX(-50%);
+	width:100px;
+	content:'';
+	opacity:1;
+	background:#ffffff;
+}
 .course_title3 p{
 	font-family: 'Montserrat', sans-serif;
 	font-size:25px;
@@ -992,8 +1012,9 @@ a{
 	font-family: 'Montserrat', sans-serif;
 	font-size:20px;
 	font-weight: 400;
-	color:#222;
+	color:rgb(255, 255, 255);
 	text-align: center;
+	
 }
 .b-overlay .course_title3 p{
 	text-transform: uppercase;
@@ -1005,6 +1026,15 @@ a{
 
 /* ADMISSION PAGE START */
 
+#breadcrumb{
+	margin-bottom:80px;
+}
+
+.myform-admission label{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color:#222;
+}
 .myform-admission input{
 	display:block;
 	width:100%;
@@ -1020,5 +1050,22 @@ a{
 	border:0;
 	padding:0 0 1px 0;
 }
-
+.form-heading h3{
+	margin-bottom: 50px;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	font-weight: 500;
+	color:#222;
+}
+.form-heading h3::after {
+	position: absolute;
+	background: #ee2e24;
+	content: '';
+	width: 123px;
+	height: 3px;
+	bottom: -16px;
+	left: 50%;
+	transform: translateX(-50%);
+}
 /* ADMISSION PAGE END */
