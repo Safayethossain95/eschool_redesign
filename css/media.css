@@ -66,5 +66,139 @@
 .b-overlay{
 	padding:0;
 }
+.table tr td {
+	text-align: center;
+	font-family: 'Arimo', sans-serif;
+	font-size: 14px;
+	color: #444;
+	font-weight: 400;
+}
+.modal-button a {
+	/* padding: 20px 0; */
+	/* margin-left: 20px; */
+	font-size: 15px;
 
+}
+.modal-button.mar {
+	margin-bottom: 10px;
+}
+#cards {
+	padding-top: 40px;
+	margin-bottom: 0px;
+}
+.course_title2 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 55px;
+	text-align: center;
+}
+.card-text p {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #222;
+	padding: 7px 23px;
+}
+.card-text h3 {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #222;
+	padding: 7px 25px;
+}
+.btn.btn-dange.mybuttonr {
+	font-size: 14px;
+}
+.buttonsmargin {
+	margin: 22px 0;
+}
+.about-text #title {
+	font-size: 25px;
+}
+.about-text h6 {
+	font-size: 22px;
+}
+.about-text {
+	margin-top: 40px;
+	padding: 0 10px;
+	margin-bottom: 40px;
+}
+
+.animated-text-1 {
+	padding: 20px 0;
+}
+.for-whom-text p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #222;
+	margin-bottom: 0;
+	text-align: justify;
+}
+.comment-img {
+	position: absolute;
+	right: -10px;
+	top: -26px;
+	z-index: 99999;
+}
+.s-image {
+	
+	margin-bottom: 10px;
+}
+.s-overlay i {
+	font-size: 60px;
+	color: rgba(255, 255, 255, 0.548);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: all 0.3s linear;
+}
+.s-text h3 {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ddd;
+	padding-top: 84px;
+}
+.s-text h4 {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ddd;
+	padding-top: 84px;
+}
+.buttonsmargin {
+	margin: 36px 0 0 0;
+}
+.cut {
+	position: absolute;
+	bottom: -16px;
+	right: 16px;
+	height: 30px;
+	width: 30px;
+	transform: rotate(45deg);
+	z-index: 999;
+	background: #f1f1f1;
+}
+.success-text h4 {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #222;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.accordion-item.shadowme {
+	margin-bottom: 20px;
+}
+.accordion-button {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+}
+.accordion-item.shadowme {
+	margin-bottom: 10px;
+}
 }
