@@ -1,15 +1,5 @@
 @media(max-width: 575.98px) {
-     
-/* ACCORDION TO MODEL */
-
-.modal-button i{
-	display:none;
-}
-
-/* ACCORDION TO MODEL */
-
-
-
+ 
 .navbar-brand img{
 	width:160px;
 }
@@ -18,9 +8,20 @@
 }
 .navbar-toggler{
 	padding-top:10px;
+	border:1px solid #ddd;
+}
+.navbar-default .navbar-toggle {
+	border-color: #ddd;
+	border:1px solid #000;
+}
+
+
+.navbar-nav{
+	text-align: center;
 }
 .navbar-toggler:focus{
 	outline:0;
+	box-shadow:none;
 }
 .accordion-button::after {
 	
@@ -45,24 +46,24 @@
 .margin-center{
 	margin:25px auto;
 }
+.buttons.onlinebtn {
+	
+	padding:13px 0 0 0;
+}
+
+.buttons{
+	text-align: center;
+}
 .buttons button{
 	line-height:1;
+	padding:8px 15px;
 }
 #cards .card-caption{
 	margin-bottom:20px;
 }
-.about-text p {
-	font-size: 14px;
-	font-weight: 400;
-	
-}
-.about-text #title {
-	font-size: 28px;
-	
-}
-.about-text h6 {
-	font-size: 24px;
-}
+
+
+
 .b-overlay{
 	padding:0;
 }
@@ -107,12 +108,13 @@
 	color: #222;
 	padding: 7px 25px;
 }
+.card-text{
+	padding:15px 0 0 0;
+}
 .btn.btn-dange.mybuttonr {
 	font-size: 14px;
 }
-.buttonsmargin {
-	margin: 22px 0;
-}
+
 .about-text #title {
 	font-size: 25px;
 }
@@ -124,14 +126,28 @@
 	padding: 0 10px;
 	margin-bottom: 40px;
 }
+.about-text p {
+	font-size: 14px;
+	font-weight: 400;
+	
+}
 
 .animated-text-1 {
 	padding: 20px 0;
+	margin:0 35px;
+}
+.animated-text-1 p{
+	font-size: 14px;
+}
+.animated-image-1 {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
 }
 .for-whom-text p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 14px!important;
 	color: #222;
 	margin-bottom: 0;
 	text-align: justify;
@@ -170,7 +186,7 @@
 	padding-top: 84px;
 }
 .buttonsmargin {
-	margin: 36px 0 0 0;
+	margin: 36px 0 36px 0;
 }
 .cut {
 	position: absolute;
@@ -201,4 +217,406 @@
 .accordion-item.shadowme {
 	margin-bottom: 10px;
 }
+.nav-item .nav-link::after{
+	width:20%;
+}
+
+#coursesmingap p{
+	margin-bottom:20px;
+}
+
+.nav-item .nav-link::after {
+	left: 50%;
+	transform: translateX(-50%);
+}
+.mycardbtngap {
+	margin: 15px 22px;
+}
+
+/* FOR WHOM START */
+
+
+
+/* FOR WHOM END */
+
+/*  FOOTER START */
+.footer-text h4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	color: #222;
+}
+.footer-text a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 33px;
+	font-weight: 400;
+	color: #222;
+	display: inline-block;
+	margin-bottom: 8px;
+	margin-right: 0;
+}
+.footer-form-link2 a{
+	font-size: 16px;
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding:8px 15px;
+	margin-top:15px;
+	background:#ee2e24;
+	text-align:center;
+	width:100%;
+	color:#fff;
+}
+.accordion-button {
+	font-size: 14px;
+	
+}
+}
+
+/* DIVIDE -------------------- */
+/* DIVIDE -------------------- */
+/* DIVIDE -------------------- */
+/* DIVIDE -------------------- */
+/* DIVIDE -------------------- */
+
+
+@media (max-width: 767.98px){
+	.footer-social-links a {
+		height: 35px;
+		width: 35px;
+		transition: all 0.3s linear;
+		background-color: #f1f1f1;
+		color: #444444;
+		text-align: center;
+		display: inline-block;
+		border-radius: 50%;
+		border: 1px solid #444444;
+		margin-bottom: 20px;
+	}
+	.success-text h4 {
+		
+		margin-top: 20px;
+	}
+	/* Successful */
+
+	.cut {
+		position: absolute;
+		bottom: -16px;
+		right: 16px;
+		height: 30px;
+		width: 30px;
+		transform: rotate(45deg);
+		z-index: 999;
+		background: #f1f1f1;
+	}
+	/* Successful */
+	/* VIDEO PART START */
+
+	.s-image {
+		
+		margin-bottom: 10px;
+	}
+	/* VIDEO PART END */
+
+	/* COMMENTS PART START */
+
+	.single-comment-box {
+		position: relative;
+		background: #f1f1f1;
+		height: 240px;
+		overflow: visible;
+		margin: 50px 18px;
+		box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+		border-bottom: 2px solid #ee2e24;
+	}
+	.comment-text .main-comment {
+		padding-top: 20px;
+		padding-right: 38px;
+		text-align: justify;
+		font-size: 14px;
+	}
+	.comment-img img {
+		width: 91px;
+		box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+	}
+	.comment-img {
+		position: absolute;
+		right: -14px;
+		top: -13px;
+		z-index: 99999;
+	}
+
+	/* COMMENTS PART END */
+	/* MODAL PART */
+	
+	.modal-button.mar {
+		margin-bottom: 10px;
+	}
+	/* Modal part end */
+
+	/* Course part start */
+
+	.card-text p {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		padding: 7px 23px;
+	}
+	.mymtsm{
+		margin-top:20px;
+	}
+	/* Course part end */
+
+	/* ABOUT */
+
+	.about-text #title {
+		font-size: 25px;
+	}
+	.about-text h6 {
+		font-size: 22px;
+	}
+	.about-text {
+		margin-top: 40px;
+		padding: 0 10px;
+		margin-bottom: 40px;
+	}
+	.about-text p {
+		font-size: 14px;
+		font-weight: 400;
+		
+	}
+
+
+	/* ABOUT */
+
+	
+}
+/* DIVIDE ------------------------- */
+/* DIVIDE ------------------------- */
+/* DIVIDE ------------------------- */
+/* DIVIDE ------------------------- */
+/* DIVIDE ------------------------- */
+/* DIVIDE ------------------------- */
+@media (max-width: 991.98px) {
+	
+	.footer-social-links a {
+		height: 35px;
+		width: 35px;
+		transition: all 0.3s linear;
+		background-color: #f1f1f1;
+		color: #444444;
+		text-align: center;
+		display: inline-block;
+		border-radius: 50%;
+		border: 1px solid #444444;
+		margin-bottom: 20px;
+	}
+	.success-text h4 {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		text-transform: uppercase;
+		margin-top: 20px;
+	}
+	.mypp{
+		padding-bottom:103px;
+	}
+	.t-overlay h3 {
+		
+		font-size: 20px;
+		
+	}
+	.success-text h4 {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		text-transform: uppercase;
+	}
+	.cut {
+		position: absolute;
+		bottom: -16px;
+		right: 16px;
+		height: 30px;
+		width: 30px;
+		transform: rotate(45deg);
+		z-index: 999;
+		background: #f1f1f1;
+	}
+	/* Success story start */
+
+	.s-text h3 {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		color: #ddd;
+		padding-top: 124px;
+	}
+
+	
+	/* Success story end */
+	/* NAVBAR PART START*/
+	
+	.navbar-brand img{
+		width:160px;
+	}
+	.navbar-toggler-icon i{
+		color:#222;
+	}
+	.navbar-toggler{
+		padding-top:10px;
+		border:1px solid #ddd;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #ddd;
+		border:1px solid #000;
+	}
+	
+	
+	.navbar-nav{
+		text-align: center;
+	}
+	.navbar-toggler:focus{
+		outline:0;
+		box-shadow:none;
+	}
+	
+	/* NAVBAR PART END */
+	/* MODAL PART */
+	
+	.modal-button.mar {
+		margin-bottom: 10px;
+	}
+	/* Modal part end */
+
+	/* Course part start */
+
+	.card-text p {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		padding: 7px 23px;
+	}
+	.mymtsm{
+		margin-top:20px;
+	}
+	/* Course part end */
+
+	/* ABOUT */
+
+	.about-text #title {
+		font-size: 25px;
+	}
+	.about-text h6 {
+		font-size: 22px;
+	}
+	.about-text {
+		margin-top: 40px;
+		padding: 0 10px;
+		margin-bottom: 40px;
+	}
+	.about-text p {
+		font-size: 14px;
+		font-weight: 400;
+		
+	}
+
+
+	/* ABOUT */
+}
+
+/* DIVIDE ------------------ */
+/* DIVIDE ------------------ */
+/* DIVIDE ------------------ */
+/* DIVIDE ------------------ */
+/* DIVIDE ------------------ */
+
+@media (max-width: 1199.98px){
+	.success-text img{
+		margin-bottom: 0;
+	}
+	.success-text h4 {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		text-transform: uppercase;
+		/* padding-top: 3px; */
+	}
+	.success-text p {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+	}
+	.single-comment-box {
+		position: relative;
+		background: #f1f1f1;
+		height: 241px;
+		overflow: visible;
+		margin: 50px 18px;
+		box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+		border-bottom: 2px solid #ee2e24;
+	}
+	.animated-text-1 {
+		padding: 48px 0;
+	}
+	.about-text {
+		
+		margin-bottom: 0px;
+	}
+	.modal-button.mar {
+		margin-bottom: 10px;
+	}
+	/* Modal part end */
+
+	/* Course part start */
+
+	.card-text p {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		padding: 7px 23px;
+	}
+	
+	/* Course part end */
+
+	/* ABOUT */
+
+	.about-text #title {
+		font-size: 25px;
+	}
+	.about-text h6 {
+		font-size: 22px;
+	}
+	.about-text {
+		margin-top: 40px;
+		padding: 0 10px;
+		margin-bottom: 40px;
+	}
+	.about-text p {
+		font-size: 14px;
+		font-weight: 400;
+		
+	}
+
+
+	/* ABOUT */
+
+	.navbar-collapse .nav-link {
+		/* font-family: 'Noto Sans JP', sans-serif; */
+		/* font-family: 'Montserrat', sans-serif; */
+		font-size: 14px;
+		color: #000;
+		font-weight: 300;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
 }
