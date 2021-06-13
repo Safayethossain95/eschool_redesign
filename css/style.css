@@ -562,13 +562,12 @@ a{
 	
 }
 
-.text p{
+.text p {
 	font-family: 'Noto Sans JP', sans-serif;
-	font-size:16px;
-	color:rgb(0, 0, 0);
+	font-size: 14px;
+	color: rgb(0, 0, 0);
 	font-weight: 700;
-	margin-top:15px;
-	
+	margin-top: 15px;
 }
 .text{
 	border-bottom: 2px solid #ee2e24;
@@ -592,7 +591,7 @@ a{
 	height: 18px;
 	border-radius: 50%;
 }
-.slick-dots li button{
+.teacher-slider .slick-dots li button{
 	font-size:0;
 	height:8px;
 	width:8px;
@@ -603,10 +602,10 @@ a{
 	opacity:0;
 	
 }
-.slick-dots .slick-active {
+/* .slick-dots .slick-active {
 	background: #ee2e24;
-}
-.slick-dots .slick-active button{
+} */
+.teacher-slider .slick-dots .slick-active button{
 	opacity:1;
 }
 .fa.fa-chevron-right.right.slick-arrow {
@@ -819,12 +818,14 @@ a{
 }
 .footer-text a {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 33px;
 	font-weight: 400;
 	color: #222;
-	display: block;
+	display: inline-block;
 	margin-bottom: 8px;
+	margin-right: 0;
+	/* width: 100%; */
 }
 
 .footer-heading{
@@ -883,16 +884,19 @@ a{
 }
 .footer-form input {
 	padding: 8px 0 8px 15px;
+	width:100%;
 }
-.footer-form-link a{
+.footer-form-link2 a{
 	font-size: 16px;
-	color: #f1f1f1;;
+	
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	padding:8px 15px;
 	margin-top:15px;
 	background:#ee2e24;
 	text-align:center;
+	width:100%;
+	color:#fff;
 }
 .footer-social-links a {
 	height: 35px;
