@@ -1,5 +1,78 @@
 @media(max-width: 575.98px) {
- 
+
+
+
+	/* MODAL */
+
+	.modal-dialog {
+		max-width: 100%;
+		margin: 1.75rem auto;
+	}
+
+/* REGISTRATION PAGE START ---------*/
+/* REGISTRATION PAGE START ---------*/
+/* REGISTRATION PAGE START ---------*/
+/* REGISTRATION PAGE START ---------*/
+/* REGISTRATION PAGE START ---------*/
+
+.req-text {
+	margin-top: 65px;
+	background: #f1f1f1;
+	padding: 15px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+/* REGISTRATION PAGE END ---------*/
+/* REGISTRATION PAGE END ---------*/
+/* REGISTRATION PAGE END ---------*/
+/* REGISTRATION PAGE END ---------*/
+/* REGISTRATION PAGE END ---------*/
+
+
+/* COURSES PAGE START ---------------- */
+/* COURSES PAGE START ---------------- */
+/* COURSES PAGE START ---------------- */
+/* COURSES PAGE START ---------------- */
+#courses #cards{
+	margin-top:0;
+	padding-top:0;
+}
+.coursesgapup{
+	margin-top:0px;
+}
+.form-heading h3 {
+	margin-bottom: 50px;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	color: #222;
+}
+.b-overlay .breadcrumb-text p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #e3e0e0;
+	text-align: center;
+	background: #222;
+	margin-top: 22px;
+}
+.course_title4 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	color: rgb(226, 214, 214);
+	text-align: center;
+}
+.ll{
+	margin-top:5%;
+}
+
+/* COURSES PAGE END ------------------ */
+/* COURSES PAGE END ------------------ */
+/* COURSES PAGE END ------------------ */
+/* COURSES PAGE END ------------------ */
 .navbar-brand img{
 	width:160px;
 }
@@ -129,12 +202,12 @@
 .about-text p {
 	font-size: 14px;
 	font-weight: 400;
-	
+	padding: 15px 0;
+	margin:0 35px;
 }
 
 .animated-text-1 {
-	padding: 20px 0;
-	margin:0 35px;
+	padding: 15px 36px !important;
 }
 .animated-text-1 p{
 	font-size: 14px;
@@ -220,15 +293,15 @@
 .nav-item .nav-link::after{
 	width:20%;
 }
+.nav-item .nav-link::after {
+	left: 50%;
+	transform: translateX(-50%);
+}
 
 #coursesmingap p{
 	margin-bottom:20px;
 }
 
-.nav-item .nav-link::after {
-	left: 50%;
-	transform: translateX(-50%);
-}
 .mycardbtngap {
 	margin: 15px 22px;
 }
@@ -284,6 +357,33 @@
 
 
 @media (max-width: 767.98px){
+
+	/* navbar */
+
+	.nav-item .nav-link::after{
+		width:20%;
+	}
+	.nav-item .nav-link::after {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/* REGISTRATION PAGE START ---------*/
+/* REGISTRATION PAGE START ---------*/
+
+.req-text {
+	margin-top: 65px;
+	background: #f1f1f1;
+	padding: 15px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+/* REGISTRATION PAGE END ---------*/
+/* REGISTRATION PAGE END ---------*/
+	#courses #cards{
+		margin-top:0;
+		padding-top:0;
+	}
 	.footer-social-links a {
 		height: 35px;
 		width: 35px;
@@ -392,6 +492,7 @@
 
 
 	/* ABOUT */
+	
 
 	
 }
@@ -402,6 +503,30 @@
 /* DIVIDE ------------------------- */
 /* DIVIDE ------------------------- */
 @media (max-width: 991.98px) {
+
+	/* navbar */
+
+	.nav-item .nav-link::after{
+		width:20%;
+	}
+	.nav-item .nav-link::after {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	/* REGISTRATION PAGE START ---------*/
+/* REGISTRATION PAGE START ---------*/
+
+.req-text {
+	margin-top: 65px;
+	background: #f1f1f1;
+	padding: 15px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+/* REGISTRATION PAGE END ---------*/
+/* REGISTRATION PAGE END ---------*/
 	
 	.footer-social-links a {
 		height: 35px;
@@ -538,6 +663,8 @@
 /* DIVIDE ------------------ */
 
 @media (max-width: 1199.98px){
+
+	
 	.success-text img{
 		margin-bottom: 0;
 	}
