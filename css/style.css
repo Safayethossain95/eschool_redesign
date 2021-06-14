@@ -37,7 +37,7 @@ a{
 	padding:0;
 }
 .modal-dialog {
-	max-width: 100%;
+	max-width: 80%;
 	margin: 1.75rem auto;
 }
 .modal-button {
@@ -187,7 +187,7 @@ a{
 	color: #fff!important;
 	border-right: 1px solid #fff;
 	text-align: center;
-	background: #49596d;
+	background: #ee2e24;
 	font-family: 'Arimo', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
@@ -318,6 +318,15 @@ a{
 .table a{
 	color:#000;
 }
+.table2{
+	border:0;
+	margin-bottom:0;
+}
+.table2 input{
+	width:100%;
+	border:0;
+	
+}
 .buttons button{
 	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 300;
@@ -436,7 +445,7 @@ a{
 
 
 .about-left-color{
-	background: rgba(73, 89, 109, 0.089);
+	background: rgba(205, 211, 218, 0.692);
 }
 .aboutShadow{
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
@@ -562,6 +571,16 @@ a{
 	
 }
 
+.wtext p {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 21px;
+	color: rgb(0, 0, 0);
+	font-weight: 700;
+	margin-top: 15px;
+	border:1px solid #444;
+	margin-right:8px;
+	margin-left:8px;
+}
 .text p {
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 14px;
@@ -919,23 +938,17 @@ a{
 	background: #f1f1f1;
 	padding:30px 0;
 }
-.for-whom-text h4{
+
+.for-whom-title h4{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size:18px;
 	color:#222;
 	text-align:justify;
 }
-.for-whom-text p{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size:14px;
-	color:#222;
-	text-align:justify;
-	margin-bottom:0;
-}
+
 .itemg{
-	margin:0 12px;
+	margin:0 -21px;
 	
 }
 .for-whom-shadow{
@@ -1141,3 +1154,35 @@ a{
 	font-size: 25px;
 }
 /* CONTACT CSS END */
+
+.table2 tr td {
+	text-align: center;
+	font-family: 'Arimo', sans-serif;
+	font-size: 14px;
+	color: #444;
+	font-weight: 400;
+}
+.table2 thead th {
+	color: #fff !important;
+	border-right: 1px solid #fff;
+	text-align: center;
+	background: #ee2e24;
+	font-family: 'Arimo', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+
+/* admission part */
+.admit_title h4{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.neccessary_paper span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color:#222;
+	margin-right:25px;
+}
+/* admission part */
