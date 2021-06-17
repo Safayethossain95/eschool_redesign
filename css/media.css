@@ -89,6 +89,9 @@
 
 
 @media (max-width: 991.98px) {
+	.contact-middle-logo {
+		text-align: left !important;
+	}
 	.pdrightgone{
 		padding-right:0 !important;
 	}
@@ -243,7 +246,11 @@
 		
 	}
 
-
+	.text p {
+		
+		font-size: 13px !important;
+		
+	}
 	/* ABOUT */
 }
 
@@ -391,7 +398,9 @@
 
 	/* ABOUT */
 	
-
+	.contact-middle-logo {
+		text-align: left !important;
+	}
 	
 }
 /* DIVIDE ------------------------- */
@@ -403,9 +412,41 @@
 
 
 @media(max-width: 575.98px) {
-
-
-
+	
+	#breadcrumb {
+		margin-bottom: 50px;
+	}
+	#footer {
+		margin: 50px 0 0 0;
+		padding: 50px 0 25px 0;
+		background: #f1f1f1;
+	}
+	#successful-students {
+		margin-bottom: 0;
+	}
+	.pdremove{
+		padding-left:15px;
+	}
+	.success-story {
+		margin-bottom: 0;
+	}
+	.single-comment-box {
+		position: relative;
+		background: #f1f1f1;
+		height: 243px;
+		overflow: visible;
+		margin: 50px 18px;
+		box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+		border-bottom: 2px solid #ee2e24;
+	}
+	#teachers {
+		margin: 0 0 20px 0;
+		background: #f1f1f1;
+		box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+	}
+	#about {
+		margin-bottom: 10px;
+	}
 	/* MODAL */
 
 	.modal-dialog {
@@ -413,10 +454,6 @@
 		margin: 1.75rem auto;
 	}
 
-/* REGISTRATION PAGE START ---------*/
-/* REGISTRATION PAGE START ---------*/
-/* REGISTRATION PAGE START ---------*/
-/* REGISTRATION PAGE START ---------*/
 /* REGISTRATION PAGE START ---------*/
 
 .req-text {
@@ -428,16 +465,9 @@
 }
 
 /* REGISTRATION PAGE END ---------*/
-/* REGISTRATION PAGE END ---------*/
-/* REGISTRATION PAGE END ---------*/
-/* REGISTRATION PAGE END ---------*/
-/* REGISTRATION PAGE END ---------*/
-
 
 /* COURSES PAGE START ---------------- */
-/* COURSES PAGE START ---------------- */
-/* COURSES PAGE START ---------------- */
-/* COURSES PAGE START ---------------- */
+
 #courses #cards{
 	margin-top:0;
 	padding-top:0;
@@ -474,9 +504,7 @@
 }
 
 /* COURSES PAGE END ------------------ */
-/* COURSES PAGE END ------------------ */
-/* COURSES PAGE END ------------------ */
-/* COURSES PAGE END ------------------ */
+
 .navbar-brand img{
 	width:160px;
 }
@@ -564,11 +592,14 @@
 	padding-top: 40px;
 	margin-bottom: 0px;
 }
+.course_title2 {
+	margin-top: 30px;
+}
 .course_title2 p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
-	margin-bottom: 55px;
+	margin-bottom: 20px;
 	text-align: center;
 }
 .card-text p {
@@ -594,6 +625,7 @@
 
 .about-text #title {
 	font-size: 25px;
+	padding: 0;
 }
 .about-text h6 {
 	font-size: 25px;
@@ -607,8 +639,8 @@
 .about-text p {
 	font-size: 14px;
 	font-weight: 400;
-	padding: 15px 0;
-	margin:0 35px;
+	padding: 8px 0;
+	margin: 0 35px;
 }
 
 .animated-text-1 {
@@ -629,6 +661,11 @@
 	color: #222;
 	margin-bottom: 0;
 	text-align: justify;
+}
+#for-whom {
+	margin-bottom: 10px;
+	background: #f1f1f1;
+	padding: 30px 0;
 }
 .comment-img {
 	position: absolute;
@@ -751,6 +788,9 @@
 .accordion-button {
 	font-size: 14px;
 	
+}
+.contact-middle-logo {
+	text-align: left !important;
 }
 }
 
