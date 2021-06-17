@@ -1,3 +1,407 @@
+
+@media (max-width: 1199.98px){
+
+	
+	.success-text img{
+		margin-bottom: 0;
+	}
+	.success-text h4 {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		text-transform: uppercase;
+		/* padding-top: 3px; */
+	}
+	.success-text p {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+	}
+	.single-comment-box {
+		position: relative;
+		background: #f1f1f1;
+		height: 241px;
+		overflow: visible;
+		margin: 50px 18px;
+		box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+		border-bottom: 2px solid #ee2e24;
+	}
+	.animated-text-1 {
+		padding: 48px 0;
+	}
+	.about-text {
+		
+		margin-bottom: 0px;
+	}
+	.modal-button.mar {
+		margin-bottom: 10px;
+	}
+	/* Modal part end */
+
+	/* Course part start */
+
+	.card-text p {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		padding: 7px 23px;
+	}
+	
+	/* Course part end */
+
+	/* ABOUT */
+
+	.about-text #title {
+		font-size: 25px;
+	}
+	.about-text h6 {
+		font-size: 22px;
+	}
+	.about-text {
+		margin-top: 40px;
+		padding: 0 10px;
+		margin-bottom: 40px;
+	}
+	.about-text p {
+		font-size: 14px;
+		font-weight: 400;
+		
+	}
+
+
+	/* ABOUT */
+
+	.navbar-collapse .nav-link {
+		/* font-family: 'Noto Sans JP', sans-serif; */
+		/* font-family: 'Montserrat', sans-serif; */
+		font-size: 14px;
+		color: #000;
+		font-weight: 300;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+
+
+
+
+@media (max-width: 991.98px) {
+	.pdrightgone{
+		padding-right:0 !important;
+	}
+	.pdremove{
+		padding:0;
+	}
+	/* navbar */
+
+	.nav-item .nav-link::after{
+		width:20%;
+	}
+	.nav-item .nav-link::after {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	/* REGISTRATION PAGE START ---------*/
+/* REGISTRATION PAGE START ---------*/
+
+.req-text {
+	margin-top: 65px;
+	background: #f1f1f1;
+	padding: 15px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+/* REGISTRATION PAGE END ---------*/
+/* REGISTRATION PAGE END ---------*/
+	
+	.footer-social-links a {
+		height: 35px;
+		width: 35px;
+		transition: all 0.3s linear;
+		background-color: #f1f1f1;
+		color: #444444;
+		text-align: center;
+		display: inline-block;
+		border-radius: 50%;
+		border: 1px solid #444444;
+		margin-bottom: 20px;
+	}
+	.success-text h4 {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		text-transform: uppercase;
+		margin-top: 20px;
+	}
+	.mypp{
+		padding-bottom:103px;
+	}
+	.t-overlay h3 {
+		
+		font-size: 20px;
+		
+	}
+	.success-text h4 {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		text-transform: uppercase;
+	}
+	.cut {
+		position: absolute;
+		bottom: -16px;
+		right: 16px;
+		height: 30px;
+		width: 30px;
+		transform: rotate(45deg);
+		z-index: 999;
+		background: #f1f1f1;
+	}
+	/* Success story start */
+
+	.s-text h3 {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		color: #ddd;
+		padding-top: 124px;
+	}
+
+	
+	/* Success story end */
+	/* NAVBAR PART START*/
+	
+	.navbar-brand img{
+		width:160px;
+	}
+	.navbar-toggler-icon i{
+		color:#222;
+	}
+	.navbar-toggler{
+		padding-top:10px;
+		border:1px solid #ddd;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #ddd;
+		border:1px solid #000;
+	}
+	
+	
+	.navbar-nav{
+		text-align: center;
+	}
+	.navbar-toggler:focus{
+		outline:0;
+		box-shadow:none;
+	}
+	
+	/* NAVBAR PART END */
+	/* MODAL PART */
+	
+	.modal-button.mar {
+		margin-bottom: 10px;
+	}
+	/* Modal part end */
+
+	/* Course part start */
+
+	.card-text p {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		padding: 7px 23px;
+	}
+	.mymtsm{
+		margin-top:20px;
+	}
+	/* Course part end */
+
+	/* ABOUT */
+
+	.about-text #title {
+		font-size: 25px;
+	}
+	.about-text h6 {
+		font-size: 22px;
+	}
+	.about-text {
+		margin-top: 40px;
+		padding: 0 10px;
+		margin-bottom: 40px;
+	}
+	.about-text p {
+		font-size: 14px;
+		font-weight: 400;
+		
+	}
+
+
+	/* ABOUT */
+}
+
+/* DIVIDE ------------------ */
+/* DIVIDE ------------------ */
+/* DIVIDE ------------------ */
+/* DIVIDE ------------------ */
+/* DIVIDE ------------------ */
+
+
+@media (max-width: 767.98px){
+	
+	/* navbar */
+
+	.nav-item .nav-link::after{
+		width:20%;
+	}
+	.nav-item .nav-link::after {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/* REGISTRATION PAGE START ---------*/
+/* REGISTRATION PAGE START ---------*/
+
+.req-text {
+	margin-top: 65px;
+	background: #f1f1f1;
+	padding: 15px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+/* REGISTRATION PAGE END ---------*/
+/* REGISTRATION PAGE END ---------*/
+	#courses #cards{
+		margin-top:0;
+		padding-top:0;
+	}
+	.footer-social-links a {
+		height: 35px;
+		width: 35px;
+		transition: all 0.3s linear;
+		background-color: #f1f1f1;
+		color: #444444;
+		text-align: center;
+		display: inline-block;
+		border-radius: 50%;
+		border: 1px solid #444444;
+		margin-bottom: 20px;
+	}
+	.success-text h4 {
+		
+		margin-top: 20px;
+	}
+	/* Successful */
+
+	.cut {
+		position: absolute;
+		bottom: -16px;
+		right: 16px;
+		height: 30px;
+		width: 30px;
+		transform: rotate(45deg);
+		z-index: 999;
+		background: #f1f1f1;
+	}
+	/* Successful */
+	/* VIDEO PART START */
+
+	.s-image {
+		
+		margin-bottom: 10px;
+	}
+	/* VIDEO PART END */
+
+	/* COMMENTS PART START */
+
+	.single-comment-box {
+		position: relative;
+		background: #f1f1f1;
+		height: 240px;
+		overflow: visible;
+		margin: 50px 18px;
+		box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+		border-bottom: 2px solid #ee2e24;
+	}
+	.comment-text .main-comment {
+		padding-top: 20px;
+		padding-right: 38px;
+		text-align: justify;
+		font-size: 14px;
+	}
+	.comment-img img {
+		width: 91px;
+		box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
+	}
+	.comment-img {
+		position: absolute;
+		right: -14px;
+		top: -13px;
+		z-index: 99999;
+	}
+
+	/* COMMENTS PART END */
+	/* MODAL PART */
+	
+	.modal-button.mar {
+		margin-bottom: 10px;
+	}
+	/* Modal part end */
+
+	/* Course part start */
+
+	.card-text p {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #222;
+		padding: 7px 23px;
+	}
+	.mymtsm{
+		margin-top:20px;
+	}
+	/* Course part end */
+
+	/* ABOUT */
+
+	.about-text #title {
+		font-size: 25px;
+	}
+	.about-text h6 {
+		font-size: 22px;
+	}
+	.about-text {
+		margin-top: 40px;
+		padding: 0 10px;
+		margin-bottom: 40px;
+	}
+	.about-text p {
+		font-size: 14px;
+		font-weight: 400;
+		
+	}
+
+
+	/* ABOUT */
+	
+
+	
+}
+/* DIVIDE ------------------------- */
+/* DIVIDE ------------------------- */
+/* DIVIDE ------------------------- */
+/* DIVIDE ------------------------- */
+/* DIVIDE ------------------------- */
+/* DIVIDE ------------------------- */
+
+
 @media(max-width: 575.98px) {
 
 
@@ -192,7 +596,8 @@
 	font-size: 25px;
 }
 .about-text h6 {
-	font-size: 22px;
+	font-size: 25px;
+	margin-left: 18px;
 }
 .about-text {
 	margin-top: 40px;
@@ -259,7 +664,7 @@
 	padding-top: 84px;
 }
 .buttonsmargin {
-	margin: 36px 0 36px 0;
+	margin: 36px 0 0 0;
 }
 .cut {
 	position: absolute;
@@ -354,396 +759,3 @@
 /* DIVIDE -------------------- */
 /* DIVIDE -------------------- */
 /* DIVIDE -------------------- */
-
-
-@media (max-width: 767.98px){
-
-	/* navbar */
-
-	.nav-item .nav-link::after{
-		width:20%;
-	}
-	.nav-item .nav-link::after {
-		left: 50%;
-		transform: translateX(-50%);
-	}
-	/* REGISTRATION PAGE START ---------*/
-/* REGISTRATION PAGE START ---------*/
-
-.req-text {
-	margin-top: 65px;
-	background: #f1f1f1;
-	padding: 15px;
-	border-radius: 8px;
-	margin-bottom: 20px;
-}
-
-/* REGISTRATION PAGE END ---------*/
-/* REGISTRATION PAGE END ---------*/
-	#courses #cards{
-		margin-top:0;
-		padding-top:0;
-	}
-	.footer-social-links a {
-		height: 35px;
-		width: 35px;
-		transition: all 0.3s linear;
-		background-color: #f1f1f1;
-		color: #444444;
-		text-align: center;
-		display: inline-block;
-		border-radius: 50%;
-		border: 1px solid #444444;
-		margin-bottom: 20px;
-	}
-	.success-text h4 {
-		
-		margin-top: 20px;
-	}
-	/* Successful */
-
-	.cut {
-		position: absolute;
-		bottom: -16px;
-		right: 16px;
-		height: 30px;
-		width: 30px;
-		transform: rotate(45deg);
-		z-index: 999;
-		background: #f1f1f1;
-	}
-	/* Successful */
-	/* VIDEO PART START */
-
-	.s-image {
-		
-		margin-bottom: 10px;
-	}
-	/* VIDEO PART END */
-
-	/* COMMENTS PART START */
-
-	.single-comment-box {
-		position: relative;
-		background: #f1f1f1;
-		height: 240px;
-		overflow: visible;
-		margin: 50px 18px;
-		box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
-		border-bottom: 2px solid #ee2e24;
-	}
-	.comment-text .main-comment {
-		padding-top: 20px;
-		padding-right: 38px;
-		text-align: justify;
-		font-size: 14px;
-	}
-	.comment-img img {
-		width: 91px;
-		box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
-	}
-	.comment-img {
-		position: absolute;
-		right: -14px;
-		top: -13px;
-		z-index: 99999;
-	}
-
-	/* COMMENTS PART END */
-	/* MODAL PART */
-	
-	.modal-button.mar {
-		margin-bottom: 10px;
-	}
-	/* Modal part end */
-
-	/* Course part start */
-
-	.card-text p {
-		font-family: 'Noto Sans JP', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		color: #222;
-		padding: 7px 23px;
-	}
-	.mymtsm{
-		margin-top:20px;
-	}
-	/* Course part end */
-
-	/* ABOUT */
-
-	.about-text #title {
-		font-size: 25px;
-	}
-	.about-text h6 {
-		font-size: 22px;
-	}
-	.about-text {
-		margin-top: 40px;
-		padding: 0 10px;
-		margin-bottom: 40px;
-	}
-	.about-text p {
-		font-size: 14px;
-		font-weight: 400;
-		
-	}
-
-
-	/* ABOUT */
-	
-
-	
-}
-/* DIVIDE ------------------------- */
-/* DIVIDE ------------------------- */
-/* DIVIDE ------------------------- */
-/* DIVIDE ------------------------- */
-/* DIVIDE ------------------------- */
-/* DIVIDE ------------------------- */
-@media (max-width: 991.98px) {
-
-	/* navbar */
-
-	.nav-item .nav-link::after{
-		width:20%;
-	}
-	.nav-item .nav-link::after {
-		left: 50%;
-		transform: translateX(-50%);
-	}
-
-	/* REGISTRATION PAGE START ---------*/
-/* REGISTRATION PAGE START ---------*/
-
-.req-text {
-	margin-top: 65px;
-	background: #f1f1f1;
-	padding: 15px;
-	border-radius: 8px;
-	margin-bottom: 20px;
-}
-
-/* REGISTRATION PAGE END ---------*/
-/* REGISTRATION PAGE END ---------*/
-	
-	.footer-social-links a {
-		height: 35px;
-		width: 35px;
-		transition: all 0.3s linear;
-		background-color: #f1f1f1;
-		color: #444444;
-		text-align: center;
-		display: inline-block;
-		border-radius: 50%;
-		border: 1px solid #444444;
-		margin-bottom: 20px;
-	}
-	.success-text h4 {
-		font-family: 'Noto Sans JP', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		color: #222;
-		text-transform: uppercase;
-		margin-top: 20px;
-	}
-	.mypp{
-		padding-bottom:103px;
-	}
-	.t-overlay h3 {
-		
-		font-size: 20px;
-		
-	}
-	.success-text h4 {
-		font-family: 'Noto Sans JP', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		color: #222;
-		text-transform: uppercase;
-	}
-	.cut {
-		position: absolute;
-		bottom: -16px;
-		right: 16px;
-		height: 30px;
-		width: 30px;
-		transform: rotate(45deg);
-		z-index: 999;
-		background: #f1f1f1;
-	}
-	/* Success story start */
-
-	.s-text h3 {
-		font-family: 'Noto Sans JP', sans-serif;
-		font-size: 16px;
-		font-weight: 400;
-		color: #ddd;
-		padding-top: 124px;
-	}
-
-	
-	/* Success story end */
-	/* NAVBAR PART START*/
-	
-	.navbar-brand img{
-		width:160px;
-	}
-	.navbar-toggler-icon i{
-		color:#222;
-	}
-	.navbar-toggler{
-		padding-top:10px;
-		border:1px solid #ddd;
-	}
-	.navbar-default .navbar-toggle {
-		border-color: #ddd;
-		border:1px solid #000;
-	}
-	
-	
-	.navbar-nav{
-		text-align: center;
-	}
-	.navbar-toggler:focus{
-		outline:0;
-		box-shadow:none;
-	}
-	
-	/* NAVBAR PART END */
-	/* MODAL PART */
-	
-	.modal-button.mar {
-		margin-bottom: 10px;
-	}
-	/* Modal part end */
-
-	/* Course part start */
-
-	.card-text p {
-		font-family: 'Noto Sans JP', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		color: #222;
-		padding: 7px 23px;
-	}
-	.mymtsm{
-		margin-top:20px;
-	}
-	/* Course part end */
-
-	/* ABOUT */
-
-	.about-text #title {
-		font-size: 25px;
-	}
-	.about-text h6 {
-		font-size: 22px;
-	}
-	.about-text {
-		margin-top: 40px;
-		padding: 0 10px;
-		margin-bottom: 40px;
-	}
-	.about-text p {
-		font-size: 14px;
-		font-weight: 400;
-		
-	}
-
-
-	/* ABOUT */
-}
-
-/* DIVIDE ------------------ */
-/* DIVIDE ------------------ */
-/* DIVIDE ------------------ */
-/* DIVIDE ------------------ */
-/* DIVIDE ------------------ */
-
-@media (max-width: 1199.98px){
-
-	
-	.success-text img{
-		margin-bottom: 0;
-	}
-	.success-text h4 {
-		font-family: 'Noto Sans JP', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		color: #222;
-		text-transform: uppercase;
-		/* padding-top: 3px; */
-	}
-	.success-text p {
-		font-family: 'Noto Sans JP', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		color: #222;
-	}
-	.single-comment-box {
-		position: relative;
-		background: #f1f1f1;
-		height: 241px;
-		overflow: visible;
-		margin: 50px 18px;
-		box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
-		border-bottom: 2px solid #ee2e24;
-	}
-	.animated-text-1 {
-		padding: 48px 0;
-	}
-	.about-text {
-		
-		margin-bottom: 0px;
-	}
-	.modal-button.mar {
-		margin-bottom: 10px;
-	}
-	/* Modal part end */
-
-	/* Course part start */
-
-	.card-text p {
-		font-family: 'Noto Sans JP', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		color: #222;
-		padding: 7px 23px;
-	}
-	
-	/* Course part end */
-
-	/* ABOUT */
-
-	.about-text #title {
-		font-size: 25px;
-	}
-	.about-text h6 {
-		font-size: 22px;
-	}
-	.about-text {
-		margin-top: 40px;
-		padding: 0 10px;
-		margin-bottom: 40px;
-	}
-	.about-text p {
-		font-size: 14px;
-		font-weight: 400;
-		
-	}
-
-
-	/* ABOUT */
-
-	.navbar-collapse .nav-link {
-		/* font-family: 'Noto Sans JP', sans-serif; */
-		/* font-family: 'Montserrat', sans-serif; */
-		font-size: 14px;
-		color: #000;
-		font-weight: 300;
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-	}
-}
