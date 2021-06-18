@@ -302,12 +302,12 @@ a{
 	color:#222;
 	padding:7px 25px;
 }
-.card-text p{
+.card-text p {
 	font-family: 'Noto Sans JP', sans-serif;
-	font-size:18px;
+	font-size: 18px;
 	font-weight: 400;
-	color:#222;
-	padding:7px 23px;
+	color: #222;
+	padding: 7px 45px 7px 23px;
 }
 
 .table {
@@ -1186,3 +1186,7 @@ a{
 	margin-right:25px;
 }
 /* admission part */
+
+.course-single-page-details{
+	margin:80px 0;
+}

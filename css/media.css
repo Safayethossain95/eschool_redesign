@@ -44,10 +44,10 @@
 
 	.card-text p {
 		font-family: 'Noto Sans JP', sans-serif;
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: 400;
 		color: #222;
-		padding: 7px 23px;
+		padding: 7px 45px 7px 23px;
 	}
 	
 	/* Course part end */
@@ -217,10 +217,10 @@
 
 	.card-text p {
 		font-family: 'Noto Sans JP', sans-serif;
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: 400;
 		color: #222;
-		padding: 7px 23px;
+		padding: 7px 45px 7px 23px;
 	}
 	.mymtsm{
 		margin-top:20px;
@@ -363,14 +363,14 @@
 	/* Modal part end */
 
 	/* Course part start */
-
 	.card-text p {
 		font-family: 'Noto Sans JP', sans-serif;
 		font-size: 14px;
 		font-weight: 400;
 		color: #222;
-		padding: 7px 23px;
+		padding: 7px 45px 7px 23px;
 	}
+	
 	.mymtsm{
 		margin-top:20px;
 	}
@@ -394,6 +394,7 @@
 		font-weight: 400;
 		
 	}
+	
 
 
 	/* ABOUT */
