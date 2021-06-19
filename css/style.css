@@ -1190,3 +1190,37 @@ a{
 .course-single-page-details{
 	margin:80px 0;
 }
+
+/* Course single page start */
+.cs-heading h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	color:#333;
+}
+.cs-text h3{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	color:#333;
+	margin-top: 30px;
+}
+.cs-text p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color:#333;
+}
+.cs-text-2 h3{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	color:#333;
+}
+.cs-text-2 p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color:#333;
+}
+/* Course single page end */
