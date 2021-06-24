@@ -8,18 +8,13 @@
 	border:1px slide red;
 	outline:none;
 	box-shadow:none;
-	
+
 }
-/* .form-control{
-	height:30px;
-} */
+
 p{
 	padding:0;
 }
-body{
-	/*background: rgba(212, 200, 200, 0.849);*/
-	
-}
+
 ul,ol{
 	list-style-type:none;
 	padding-left:0;
@@ -35,6 +30,7 @@ a{
 .modal-body{
 	width:100%;
 	padding:0;
+	
 }
 .modal-dialog {
 	max-width: 80%;
@@ -50,15 +46,12 @@ a{
 	margin-top:7px;
 	cursor:pointer;
 }
+
 .modal-button a{
-	/* padding:20px 0; */
-	/* margin-left:20px; */
 	font-size: 16px;
 	font-family: 'Noto Sans JP', sans-serif;
 	color:#222;
 	font-weight: 300;
-
-	
 	border-radius:5px;
 }
 
@@ -66,7 +59,6 @@ a{
 .navbar-collapse .nav-link{
 	
 	font-family: 'Noto Sans JP', sans-serif;
-	/* font-family: 'Montserrat', sans-serif; */
 	font-size:16px;
 	color:#000;
 	font-weight:300;
@@ -75,9 +67,7 @@ a{
 }
 
 .navbar{
-	/* background: #b5bdc7; */
 	background: #f1f1f1;
-	
 	border-bottom: 2px solid #eb1c24;
 }
 .navbar img{
@@ -118,7 +108,6 @@ a{
 }
 
 .nav-item{
-	
 	position: relative;
 	margin-left:1rem!important;
 	margin-right:.5rem!important;
@@ -132,20 +121,14 @@ a{
     left: 0;
     bottom: 0;
     transition: all 0.4s ease;
-    
-    /* z-index: 99; */
 }
-
 .navbar-collapse ul li:hover> .nav-link::after{
-	
 	height:3px;
 	color:#ee2e24;
 }
 .navbar-collapse ul li:hover> .nav-link{
 	color:#222;
 }
-
-
 .navbar-collapse ul li ul li:hover{
 	background: #ee2e24;
 	
@@ -154,14 +137,7 @@ a{
 	color:#fff;
 }
 
-/* .bannerclass{
-	z-index: -1;
-	position: relative;
-} */
-/* .banner{
-	position:relative;
 
-} */
 .seminar-s{
 	margin-top:-50px;
 	background: #f1f1f1;
@@ -169,19 +145,6 @@ a{
 	border-radius: 12px;
 	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
 }
-/* .seminar-s {
-	position: absolute;
-	top:80vh;
-	left: 50%;
-	width:80%;
-	transform:translateX(-50%);
-	background: #f1f1f1;
-	padding: 20px 15px;
-	border-radius: 12px;
-	box-shadow: 0px 5px 20px rgba(112, 108, 108, 0.692);
-} */
-
-
 
 .table thead th{
 	color: #fff!important;
@@ -205,7 +168,6 @@ a{
   }
  
 .accordion-body .btn {
-   
 	color: #ffffff;
 	display: inline-block;
 	padding: 6px 12px;
@@ -224,7 +186,6 @@ a{
 	border: 1px solid transparent;
 	border-radius: 4px;
 	background: rgb(131, 130, 153);
-	
 }
 
 .accordion-button{
@@ -234,10 +195,6 @@ a{
 }
 .accordion-item {
 	background-color: #fff;
-	/* border: 1px solid rgba(0,0,0,.125); */
-	
-	
-	/* border-radius: 175px; */
 }
 .expp{
 	transition:all 0.5s linear;
@@ -402,17 +359,11 @@ a{
 	font-size: 14px;
 	color:#ee2e24;
 }
-
-
 #about{
-	
-	margin-bottom: 50px;
-	
+	margin-bottom: 50px;	
 }
 .animated-text-1{
-	padding:70px 0;
-	
-	
+	padding:70px 0;	
 }
 .animated-text-1 h3{
 	font-size: 30px;
@@ -441,9 +392,6 @@ a{
 	padding-left:20px;
 	padding-right: 10px;
 }
-
-
-
 .about-left-color{
 	background: rgba(205, 211, 218, 0.692);
 }
@@ -528,9 +476,7 @@ a{
 	
 	height:400px;
 }
-/* .teacher-img img{
-	border-bottom:3px solid #ee2e24;
-} */
+
 .o-img{
 	position: relative;
 	margin:0 8px;
@@ -554,9 +500,6 @@ a{
 	transition:all 0.4s;
 
 }
-/* .t-overlay:hover:after{
-	width:100%;
-} */
 .o-img:hover .t-overlay{
 	opacity:1;
 	height:100%;
@@ -570,7 +513,6 @@ a{
 	margin-top:80%;
 	
 }
-
 .wtext p {
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 21px;
@@ -621,9 +563,7 @@ a{
 	opacity:0;
 	
 }
-/* .slick-dots .slick-active {
-	background: #ee2e24;
-} */
+
 .teacher-slider .slick-dots .slick-active button{
 	opacity:1;
 }
@@ -645,9 +585,7 @@ a{
 	padding: 11px;
 	width: 38px;
 }
-/* #comments{
-	margin:0 0 60px 0;
-} */
+
 .single-comment-box {
 	position: relative;
 	background: #f1f1f1;
@@ -715,8 +653,6 @@ a{
 	height:100%;
 	text-align: center;
 	transition:all 0.5s linear;
-
-
 }
 .s-overlay i{
 	font-size:90px;
@@ -1171,8 +1107,6 @@ a{
 	font-size: 14px;
 	font-weight: 700;
 }
-
-
 /* admission part */
 .admit_title h4{
 	margin-top:30px;
@@ -1184,6 +1118,7 @@ a{
 	font-weight: 400;
 	color:#222;
 	margin-right:25px;
+	
 }
 /* admission part */
 
@@ -1194,28 +1129,32 @@ a{
 /* Course single page start */
 .cs-heading h4{
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 30px;
 	color:#333;
 }
 .cs-text h3{
-	font-family: 'Noto Sans JP', sans-serif;
-	font-weight: 600;
-	font-size: 22px;
-	color:#333;
-	margin-top: 30px;
-}
-.cs-text p{
+	/* font-family: 'Noto Sans JP', sans-serif; */
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	font-size: 16px;
-	color:#333;
-}
-.cs-text-2 h3{
-	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 600;
 	font-size: 26px;
 	color:#333;
+	margin-top: 30px;
+}
+.cs-text p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #333;
+	padding-right: 30px;
+	text-align: justify;
+}
+.cs-text-2 h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	color:#333;
+	margin-top:30px;
 }
 .cs-text-2 p{
 	font-family: 'Montserrat', sans-serif;
@@ -1223,4 +1162,149 @@ a{
 	font-size: 16px;
 	color:#333;
 }
+
+.cs-right-side-gap{
+	margin-top:70px;
+	margin-bottom:70px;
+}
+.cs-right-side-gap2 {
+	margin-top: 110px;
+	margin-bottom: 110px;
+}
+
 /* Course single page end */
+
+#graphic-design-single-page .cs-right-side-gap2 {
+	margin-top: 70px;
+	margin-bottom: 105px;
+}
+
+#video-editing-single-page .cs-right-side-gap {
+	margin-top: 105px;
+	margin-bottom: 70px;
+}
+
+#courses #breadcrumb {
+	margin-bottom: 0;
+}
+
+#video-editing-single-page #breadcrumb {
+	margin-bottom: 80px;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+	background:#ee2e24;
+	color:#fff;
+}
+
+.last-gap{
+	margin-left:-10px;
+}
+
+#terms .nav-tabs{
+	justify-content: center;
+}
+#register_assets h4, .register_form h4, .address-title h4 {
+	position: relative;
+	display: inline-block;
+	padding-bottom: 15px;
+	margin-bottom: 18px;
+	color: #e81c24;
+	font-size: 20px;
+}
+
+
+#terms .nav-tabs{
+	border-bottom:0;
+}
+
+#terms .b-overlay .breadcrumb-text p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin-top: 25px;
+}
+#terms .tab-pane h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #222;
+	margin-top:30px;
+	
+}
+#terms .tab-pane h5{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color:#222;
+	line-height: 26px;
+}
+#terms .mytitle{
+	position:relative;
+}
+#terms .mytitle h4::after {
+	background: #ee2e24;
+	width: 50%;
+	height: 2px;
+	opacity: 1;
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#terms .mytitle p{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color:#222;
+	line-height:26px;
+}
+#terms .mylist ul li img{
+	margin-right:10px;
+}
+#terms .mylist ul li {
+	margin-bottom: 5px;
+	line-height: 29px;
+}
+#terms .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #fff !important;
+	background-color: #ee2e24;
+	border-color: #dee2e6 #fff #fff4;
+}
+#terms .nav-tabs .nav-link {
+	display: block;
+	padding: .5rem 1rem;
+	color:#222;
+	border:1px solid #ddd;
+	text-decoration: none;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+/* ====== Sticky menu start ====== */
+.sticky_menu{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:9999;
+	animation: stk 1s linear;
+	background: #f1f1f1;
+	-webkit-animation: stk 1s linear;
+}
+@keyframes stk{
+	0%{
+		top:-100px;
+	}
+	100%{
+		top:0px;
+	}
+}
+/* ====== Sticky menu end ====== */

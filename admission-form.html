@@ -44,7 +44,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index - 2 - Accordion to Modal.html">Home</span></a>
+            <a class="nav-link" href="index.html">Home</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="courses.html">Courses</span></a>
@@ -53,7 +53,7 @@
             <a class="nav-link" href="e-school-team.html">eSchool Team</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Registration</span></a>
+            <a class="nav-link" href="registration.html">Registration</span></a>
           </li>
 
           <li class="nav-item">
@@ -425,74 +425,74 @@
 
                   <!-- OLD TABLE DOWN -->
                   <div class="table-responsive">
-                      <table  class="table table2 table-bordered" cellpadding="2" cellspacing="2">
+                      <table width="100%"  class="table table2 table-bordered" cellpadding="2" cellspacing="2">
                           <thead>
-                              <tr>
-                                  <th>Degree</th>
-                                  <th>School/College/University</th>
-                                  <th>Board</th>
-                                  <th>Pass Year</th>
-                                  <th>Division/GPA</th>
-                              </tr>
+                            <tr>
+                              <th style="width:15%">Degree</th>
+                              <th style="width:35%">School/College/University</th>
+                              <th style="width:15%">Board</th>
+                              <th style="width:20%">Pass Year</th>
+                              <th style="width:15%">Division/GPA</th>
+                          </tr>
                           </thead>
                           <tbody>
                               <tr>
-                                  <td>S.S.C/O Level</td>
-                                  <td>
+                                  <td style="width:15%">S.S.C/O Level</td>
+                                  <td style="width:35%">
                                       <input type="text" name="sscschool" id="" class="" required="required">
                                   </td>
-                                  <td>
+                                  <td style="width:15%">
                                       <input type="text" name="sscboard" id="" class="" required="required">
                                   </td>
-                                  <td >
+                                  <td style="width:20%">
                                       <input type="text" name="sscyear" id="" class="" required="required">
                                   </td>
-                                  <td >
+                                  <td style="width:15%">
                                       <input type="text" name="sscresult" id="" class="" required="required">
                                   </td>
                               </tr>
                               <tr>
-                                  <td >H.S.C/Diploma</td>
-                                  <td >
+                                  <td style="width:15%">H.S.C/Diploma</td>
+                                  <td style="width:35%">
                                       <input type="text" name="hsccollege" id="" class="">
                                   </td>
-                                  <td >
+                                  <td style="width:15%">
                                       <input type="text" name="hscboard" id="" class="">
                                   </td>
-                                  <td >
+                                  <td style="width:20%">
                                       <input type="text" name="hscyear" id="" class="">
                                   </td>
-                                  <td >
+                                  <td style="width:15%">
                                       <input type="text" name="hscresult" id="" class="">
                                   </td>
                               </tr>
                               <tr>
-                                  <td >Graduation</td>
-                                  <td >
+                                  <td style="width:15%">Graduation</td>
+                                  <td style="width:35%">
                                       <input type="text" name="gversity" id="" class="">
                                   </td>
-                                  <td >
+                                  <td style="width:15%">
                                       <input type="text" name="gboard" id="" class="">
                                   </td>
-                                  <td >
+                                  <td style="width:20%">
                                       <input type="text" name="gyear" id="" class="">
                                   </td>
-                                  <td >
+                                  <td style="width:15%">
                                       <input type="text" name="gresult" id="" class="">
                                   </td>
                               </tr>
                               <tr>
-                                  <td >Post Graduation</td>
-                                  <td >
+                                  <td style="width:15%">Post Graduation</td>
+                                  <td style="width:35%">
                                       <input type="text" name="pgversity" id="" class="">
                                   </td>
-                                  <td >
+                                  <td style="width:15%" >
                                       <input type="text" name="pgboard" id="" class="">
                                   </td>
-                                  <td >
+                                  <td style="width:20%">
                                       <input type="text" name="pgyear" id="" class="">
                                   </td>
-                                  <td >
+                                  <td style="width:15%">
                                       <input type="text" name="pgresult" id="" class="">
                                   </td>
                               </tr>
@@ -513,28 +513,63 @@
             <div class="text-center admit_title">
               <h4>Important Documents</h4>
           </div>
-          <div class="neccessary_paper">
-              <ul>
-                  <li>
-                      <span>
-                        Recent Passport Size Photo
-                      </span>
-                      <input type="file" name="photo">
-                  </li>
-                  <li>
-                      <span>
-                        National ID/Birth Certificate
-                      </span>
-                      <input type="file" name="nid">
-                  </li>
-                  <li>
-                      <span>
-                         Latest Educational Certificate
-                      </span>
-                      <input type="file" name="edu">
-                  </li>
-              </ul>
+          <div class="row">
+            
+            <div class="col-lg-7 col-7 m-auto" >
+              <div class="neccessary_paper text-center">
+                <ul>
+                    <li>
+                      <div class="row">
+                        
+                       <div class="col-lg-7  col-sm-7 col-md-7 col-12">
+                        <span>
+                          Recent Passport Size Photo
+                        </span>
+                       </div>
+                       <div class="col-lg-5 col-sm-5 col-md-5 col-12">
+                        <label for="photo" class="custom-file-upload">
+                          <input type="file" name="photo" id="photo">
+                          Browse..
+                        </label>
+                       </div>
+                      </div>  
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-lg-7 col-sm-7">
+                          <span>
+                            National ID/Birth Certificate
+                          </span>
+                        </div>
+                        <div class="col-lg-5 col-sm-5">
+                          <label for="nid" class="custom-file-upload">
+                            <input type="file" name="nid" id="nid">
+                            Browse..
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                          <div class="row">
+                            <div class="col-lg-7 col-sm-7">
+                              <span>
+                                Latest Educational Certificate
+                            </span>
+                            </div>
+                            <div class="col-lg-5 col-sm-5">
+                              <label for="edu" class="custom-file-upload">
+                                <input type="file" name="edu" id="edu">
+                                Browse..
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </div>
           </div>
+         
           <div class="text-center admit_title">
             <input type="checkbox" id="terms" name="terms" value="terms" required>
              <label for="terms"> I agree to the provided <a href="/terms" target="_blank">Terms & Conditions</a>.</label> 
@@ -543,7 +578,7 @@
   
           <br>
           <div class="admit_submit">
-            <div class="buttons mycardbtngap">
+            <div class="buttons mycardbtngap text-center">
               <button class="btn btn-danger">Submit</button>
             </div>
           </div>
@@ -607,12 +642,12 @@
               <div class="col-lg-7 col-12">
                 <div class="footer-links">
                   <ul>
-                    <li><a href="#">Home</a></li>
-                  <li><a href="#">Web Design</a></li>
-                  <li><a href="#">Graphic Design</a></li>
-                  <li><a href="#">ESchool Team</a></li>
-                  <li><a href="#">Terms</a></li>
-                  <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                  <li><a href="course-details-web-design.html">Web Design</a></li>
+                  <li><a href="course-details-graphic-design.html">Graphic Design</a></li>
+                  <li><a href="e-school-team.html">ESchool Team</a></li>
+                  <li><a href="terms.html">Terms</a></li>
+                  <li><a href="contact.html">Contact</a></li>
                   </ul>
                 </div> 
               </div>
@@ -655,7 +690,6 @@
       <div class="row">
         <div class="col-lg-6 m-auto">
           <div class="title text-center">
-            
             <p> Copyright  2021. &copy; All Rights Reserved by <span>Creative eSchool.</span> </p>
           </div>
         </div>
@@ -669,25 +703,7 @@
   <script src="js/slick.min.js"></script>
   <script src="js/venobox.min.js"></script>
   <script src="js/custom.js"></script>
-  <script>
-    function myFunction() {
-      var x = document.getElementById("acc");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-        $('#expp').addClass("col-lg-6");
-        // $('#cards').removeClass("pd");
-      } 
-      else {
-        x.style.display = "none"
-        $('#expp').removeClass("col-lg-6");
-        // $('#cards').addClass("pd");
-      }
-    
-    }
-  
-  
-   
-    </script>
+ 
   </body>
   </html>
 
